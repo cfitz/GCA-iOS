@@ -142,5 +142,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 @end
