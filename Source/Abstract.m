@@ -40,19 +40,19 @@
     NSString *groupPref = nil;
     switch (gid) {
         case 0:
-            groupPref =  @"I";
+            groupPref =  @"Oral (Demo)";
             break;
         case 1:
-            groupPref =  @"C";
+            groupPref =  @"Oral (Poster)";
             break;
         case 2:
-            groupPref =  @"W";
+            groupPref =  @"Poster";
             break;
         case 3:
-            groupPref =  @"T";
+            groupPref =  @"Demo";
             break;
         default:
-            groupPref =  @"N";
+            groupPref =  @"Unsorted";
             break;
     }
     

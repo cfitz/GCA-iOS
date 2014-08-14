@@ -20,16 +20,16 @@
 {
     switch (groupId) {
         case 0:
-            return @"I";
+            return @"OD";
             break;
         case 1:
-            return @"C";
+            return @"OP";
             
         case 2:
-            return @"W";
+            return @"P";
             
         case 3:
-            return @"T";
+            return @"D";
         default:
             break;
     }
