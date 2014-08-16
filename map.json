@@ -1,20 +1,95 @@
- [
-  {
-    "description": "Brechtbau, Tübingen",
-    "name": "Workshop venue",
-    "point": {
-    "lat": 48.526985,
-    "long":  9.063087
-    },
-    "type": 0
-  },
+[
     {
-        "description": "Neue Aula, Universität Tübingen",
-        "name": "Congress venue",
+        "ExtendedData": "", 
+        "description": "Congress venue at the University of Leiden.", 
+        "name": "The venue: Kamerlingh Onnes Gebouw", 
         "point": {
-            "lat": 48.524517,
-            "long":  9.059576
+            "lat": 52.156116, 
+            "long": 4.489863000000014
         }, 
         "type": 0
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Hotel Ibis Leiden Centre", 
+        "point": {
+            "lat": 52.164249, 
+            "long": 4.481499999999983
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Hilton Garden Inn Leiden", 
+        "point": {
+            "lat": 52.170437, 
+            "long": 4.453071000000023
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Holiday Inn Leiden", 
+        "point": {
+            "lat": 52.164004, 
+            "long": 4.456384999999955
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Golden Tulip Leiden Centre", 
+        "point": {
+            "lat": 52.167014, 
+            "long": 4.485140999999999
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Tulip Inn Leiden Centre", 
+        "point": {
+            "lat": 52.167014, 
+            "long": 4.485140999999999
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Hampshire Hotel Fitland \u2013 Leiden", 
+        "point": {
+            "lat": 52.167074, 
+            "long": 4.481939000000011
+        }, 
+        "type": 2
+    }, 
+    {
+        "ExtendedData": "", 
+        "description": "Monday Aug 25", 
+        "name": "Welcome reception at Leiden City Hall", 
+        "point": {
+            "lat": 52.157874, 
+            "long": 4.491255000000024
+        }, 
+        "type": 5
+    }, 
+    {
+        "ExtendedData": "", 
+        "description": "Tuesday Aug 26", 
+        "name": "Banquet at Hortus Botanicus", 
+        "point": {
+            "lat": 52.15596200000001, 
+            "long": 4.483942999999954
+        }, 
+        "type": 5
+    }, 
+    {
+        "ExtendedData": "", 
+        "name": "Leiden Central Station", 
+        "point": {
+            "lat": 52.166386, 
+            "long": 4.482129999999984
+        }, 
+        "type": 4
     }
 ]
