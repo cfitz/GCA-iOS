@@ -42,7 +42,7 @@
         for (NSUInteger i = 0; i < self.affiliations.count; i++) {
             Affiliation *affiliation = [self.affiliations objectAtIndex:i];
             if ([affiliation.ofAuthors containsObject:author]) {
-                [html appendFormat:@"%s%u", count != 0 ? ", " : "", i+1];
+                [html appendFormat:@"%s%lu", count != 0 ? ", " : "", i+1];
                 count++;
             }
         }
@@ -88,10 +88,17 @@
     if (self.references && self.references.length)
         [html appendFormat:@"<div class=\"appendix\"><p><h4>References</h4><p>%@</p></div>", [self.references formatHTML]];
     
-    NSArray *legitFormats = @[ @"tiff", @"png", @"jpeg", @"pdf"];
-    if (self.nfigures) {
-        NSString *figID = [NSString stringWithFormat:@"%03d", self.figid];
-        NSLog(@"figure path: %@", figID);
+    NSArray *legitFormats = @[ @"tiff", @"png", @"jpeg", @"jpg", @"pdf"];
+    for (int i = 0; i < self.nfigures; i++) {
+        NSString *figPrefix = [self formatId:FALSE];
+        NSString *figSuffix = @"";
+        
+        if (self.nfigures > 1) {
+            figSuffix = [NSString stringWithFormat:@"_%c", 0x61 + i];
+        }
+        
+        NSString *figID = [NSString stringWithFormat:@"%@%@", figPrefix, figSuffix];
+        
         
         __block NSString *fullpath = @"";
         
@@ -101,12 +108,14 @@
             *stop = [[NSFileManager defaultManager] fileExistsAtPath:testPath];
         }];
         
-        NSString *caption = self.caption;
+        NSLog(@"figure path: %@", fullpath);
+        NSString *caption = self.caption ? self.caption : @"";
         if ([caption hasPrefix:@"Figure 1"]) {
             caption = [caption substringFromIndex:8];
         }
         
-        [html appendFormat:@"<div class=\"figure\"><img src=\"%@\" /><p>Figure 1:%@<p></div><br/>", fullpath, caption];
+        
+        [html appendFormat:@"<div class=\"figure\"><img src=\"%@\" /><p>Figure %d %@<p></div><br/>", fullpath, i+1, caption];
     }
     
     [html appendFormat:@"<div>doi: <a href=\"http://dx.doi.org/%@\">%@</a></div><br/>", self.doi, self.doi];
