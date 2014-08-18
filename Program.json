@@ -100,7 +100,7 @@
                "title": "Lunch"
                },
                {
-               "time" : "13:20",
+               "time" : "13:00",
                "type" : "workshop",
                "header": "Special Session",
                "title": "Big data",
@@ -170,7 +170,7 @@
             "title": "Lunch"
             },
             {
-            "time" : "14:00",
+            "time" : "13:00",
             "type" : "poster",
             "title": "Netherlands Node special session",
             "info": "Population-based neuroimaging"
@@ -181,16 +181,20 @@
             "title": "Coffee break"
             },
             {
-            "time":  "16:20",
+            "time":  "15:30",
             "type":  "general",
             "title": "Netherlands Node special session",
             "info": "[continued]"
             },
             {
-            "time" : "18:00",
+            "time" : "16:45",
             "type" : "general",
             "title": "INCF Victoria Node",
             "info": "Welcome to Cairns in 2015!"
+            },{
+            "time":  "17:30",
+            "type":  "general",
+            "title": "Closing remarks: Jan Bjaalie"
             },{
             "time":  "17:45",
             "type":  "general",
