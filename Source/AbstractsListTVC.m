@@ -193,16 +193,16 @@
     switch (ch) {
             
         case 'I':
-            session = @"Invited Talk";
+            session = @"Invited Talks";
             break;
         case 'C':
-            session = @"Contributed Talk";
+            session = @"Contributed Talks";
             break;
         case 'T':
-            session = @"Poster Session - Thursday";
+            session = @"Posters - Thursday";
             break;
         case 'W':
-            session = @"Poster Session - Wednesday";
+            session = @"Posters - Wednesday";
             break;
         default:
             break;
