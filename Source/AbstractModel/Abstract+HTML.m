@@ -87,7 +87,7 @@
         [html appendFormat:@"<div class=\"appendix\"><h4>Acknowledgements</h4><p>%@</p></div>", [self.acknoledgements formatHTML]];
 
     if (self.references && self.references.count) {
-        [html appendFormat:@"<div class=\"appendix\"><p><h4>References</h4><ol>"];
+        [html appendFormat:@"<div class=\"appendix\"><p><h4>References</h4><ul>"];
         for (Reference *ref in self.references) {
 
             [html appendString:@"<li>"];
@@ -102,7 +102,7 @@
             [html appendString:@"</li>"];
 
         }
-        [html appendString:@"</ol></div>"];
+        [html appendString:@"</ul></div>"];
     }
 
     NSArray *legitFormats = @[ @"tiff", @"png", @"jpeg", @"pdf", @"" ];

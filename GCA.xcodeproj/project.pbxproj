@@ -46,6 +46,7 @@
 		E962424419A38BC500B189D6 /* JSONImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E962424319A38BC500B189D6 /* JSONImporter.m */; };
 		E976936419A87A8700320EAD /* Abstract+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E976936319A87A8700320EAD /* Abstract+Format.m */; };
 		E976936519A87A8700320EAD /* Abstract+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E976936319A87A8700320EAD /* Abstract+Format.m */; };
+		E97E50891B7D54D8009BFB88 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = E97E50881B7D54D8009BFB88 /* map.json */; };
 		E9829D4717C24A490024EBC0 /* G-Node.png in Resources */ = {isa = PBXBuildFile; fileRef = E9829D4517C24A490024EBC0 /* G-Node.png */; };
 		E9829D4817C24A490024EBC0 /* G-Node@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9829D4617C24A490024EBC0 /* G-Node@2x.png */; };
 		E9829D5217C25EED0024EBC0 /* AbstractsSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9829D5117C25EED0024EBC0 /* AbstractsSVC.m */; };
@@ -82,7 +83,6 @@
 		E9D3141317BF7C1B00DACDB4 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = E9D3140E17BF7C1B00DACDB4 /* stack.c */; };
 		E9D3141617BF7C8D00DACDB4 /* InfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3141517BF7C8D00DACDB4 /* InfoVC.m */; };
 		E9D3141C17BF7D4F00DACDB4 /* info.md in Resources */ = {isa = PBXBuildFile; fileRef = E9D3141917BF7D4F00DACDB4 /* info.md */; };
-		E9D3141D17BF7D4F00DACDB4 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D3141A17BF7D4F00DACDB4 /* map.json */; };
 		E9D3142017BF7D7000DACDB4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3141F17BF7D7000DACDB4 /* CoreText.framework */; };
 		E9D3143117BF875500DACDB4 /* 00-StarFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D3142217BF875500DACDB4 /* 00-StarFilled@2x.png */; };
 		E9D3143217BF875500DACDB4 /* 01-Location-Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D3142317BF875500DACDB4 /* 01-Location-Arrow.png */; };
@@ -164,6 +164,7 @@
 		E962424319A38BC500B189D6 /* JSONImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONImporter.m; sourceTree = "<group>"; };
 		E976936219A87A8700320EAD /* Abstract+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Abstract+Format.h"; path = "AbstractModel/Abstract+Format.h"; sourceTree = "<group>"; };
 		E976936319A87A8700320EAD /* Abstract+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Abstract+Format.m"; path = "AbstractModel/Abstract+Format.m"; sourceTree = "<group>"; };
+		E97E50881B7D54D8009BFB88 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = SOURCE_ROOT; };
 		E9829D4517C24A490024EBC0 /* G-Node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "G-Node.png"; path = "Artwork/G-Node.png"; sourceTree = SOURCE_ROOT; };
 		E9829D4617C24A490024EBC0 /* G-Node@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "G-Node@2x.png"; path = "Artwork/G-Node@2x.png"; sourceTree = SOURCE_ROOT; };
 		E9829D5017C25EED0024EBC0 /* AbstractsSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractsSVC.h; sourceTree = "<group>"; };
@@ -174,7 +175,7 @@
 		E9BD1D7F1B791B1B000F197F /* CKSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKSchedule.h; path = ConferenceKit/CKSchedule.h; sourceTree = "<group>"; };
 		E9BD1D801B791B1B000F197F /* CKSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKSchedule.m; path = ConferenceKit/CKSchedule.m; sourceTree = "<group>"; };
 		E9BD1D861B7C7BD1000F197F /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = SOURCE_ROOT; };
-		E9D313C217BF7B3100DACDB4 /* GCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D313C217BF7B3100DACDB4 /* NI15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NI15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D313C517BF7B3100DACDB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9D313C717BF7B3100DACDB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9D313C917BF7B3100DACDB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -208,7 +209,6 @@
 		E9D3141417BF7C8D00DACDB4 /* InfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoVC.h; sourceTree = "<group>"; };
 		E9D3141517BF7C8D00DACDB4 /* InfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoVC.m; sourceTree = "<group>"; };
 		E9D3141917BF7D4F00DACDB4 /* info.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = info.md; sourceTree = SOURCE_ROOT; };
-		E9D3141A17BF7D4F00DACDB4 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = SOURCE_ROOT; };
 		E9D3141F17BF7D7000DACDB4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		E9D3142217BF875500DACDB4 /* 00-StarFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "00-StarFilled@2x.png"; path = "Artwork/00-StarFilled@2x.png"; sourceTree = SOURCE_ROOT; };
 		E9D3142317BF875500DACDB4 /* 01-Location-Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-Location-Arrow.png"; path = "Artwork/01-Location-Arrow.png"; sourceTree = SOURCE_ROOT; };
@@ -323,7 +323,7 @@
 		E9D313C317BF7B3100DACDB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9D313C217BF7B3100DACDB4 /* GCA.app */,
+				E9D313C217BF7B3100DACDB4 /* NI15.app */,
 				E962420019A38A4800B189D6 /* GCAManager.app */,
 			);
 			name = Products;
@@ -434,11 +434,11 @@
 		E9D3141817BF7D1600DACDB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E97E50881B7D54D8009BFB88 /* map.json */,
 				E9BD1D861B7C7BD1000F197F /* schedule.json */,
 				E9938EDE199CDC15003163D5 /* Abstracts.storedata */,
 				E9938ED6199CD56E003163D5 /* Abstract.css */,
 				E9D3141917BF7D4F00DACDB4 /* info.md */,
-				E9D3141A17BF7D4F00DACDB4 /* map.json */,
 			);
 			name = Resources;
 			path = NI2013;
@@ -559,7 +559,7 @@
 			);
 			name = GCA;
 			productName = NI2013;
-			productReference = E9D313C217BF7B3100DACDB4 /* GCA.app */;
+			productReference = E9D313C217BF7B3100DACDB4 /* NI15.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -619,7 +619,6 @@
 				E9D313DF17BF7B3100DACDB4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E9D313E217BF7B3100DACDB4 /* MainStoryboard_iPad.storyboard in Resources */,
 				E9D3141C17BF7D4F00DACDB4 /* info.md in Resources */,
-				E9D3141D17BF7D4F00DACDB4 /* map.json in Resources */,
 				E9938ED7199CD56E003163D5 /* Abstract.css in Resources */,
 				E9D3143117BF875500DACDB4 /* 00-StarFilled@2x.png in Resources */,
 				E9D3143217BF875500DACDB4 /* 01-Location-Arrow.png in Resources */,
@@ -631,6 +630,7 @@
 				E9BD1D871B7C7BD1000F197F /* schedule.json in Resources */,
 				E9D3143817BF875500DACDB4 /* 04-Home.png in Resources */,
 				E9D3143917BF875500DACDB4 /* 04-Home@2x.png in Resources */,
+				E97E50891B7D54D8009BFB88 /* map.json in Resources */,
 				E9D3143A17BF875500DACDB4 /* 05-Notebook.png in Resources */,
 				E9D3143B17BF875500DACDB4 /* 05-Notebook@2x.png in Resources */,
 				E9D3143C17BF875500DACDB4 /* 06-Next.png in Resources */,
@@ -896,7 +896,7 @@
 		E9D313F417BF7B3100DACDB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = INCF;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -905,7 +905,7 @@
 				INFOPLIST_FILE = "Source/GCA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GCA;
+				PRODUCT_NAME = NI15;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
@@ -915,7 +915,7 @@
 		E9D313F517BF7B3100DACDB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = INCF;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -924,7 +924,7 @@
 				INFOPLIST_FILE = "Source/GCA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GCA;
+				PRODUCT_NAME = NI15;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};

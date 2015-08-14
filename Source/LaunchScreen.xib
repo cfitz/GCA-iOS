@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
@@ -14,17 +13,17 @@
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Created by the German Neuroinformatics Node" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
                     <rect key="frame" x="20" y="448" width="441" height="12"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                     <variation key="widthClass=compact">
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                     </variation>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BC-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="l0F-Ai-IXM">
-                    <rect key="frame" x="105" y="160" width="270" height="160"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="INCF-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="l0F-Ai-IXM">
+                    <rect key="frame" x="132.5" y="202.5" width="215" height="75"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.023529411764705882" green="0.25098039215686274" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="l0F-Ai-IXM" secondAttribute="centerX" id="0kX-hu-0GR"/>
                 <constraint firstAttribute="centerY" secondItem="l0F-Ai-IXM" secondAttribute="centerY" id="2LW-he-bZX"/>
@@ -38,6 +37,6 @@
         </view>
     </objects>
     <resources>
-        <image name="BC-Logo" width="270" height="160"/>
+        <image name="INCF-Logo" width="215" height="75"/>
     </resources>
 </document>

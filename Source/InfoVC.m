@@ -28,13 +28,15 @@
     NSAttributedString *attrStr = [CKMarkdownParser parseString:fileContents];
     
     self.mdView = [[CKMarkdownView alloc] init];
-    self.mdView.fgColor = [UIColor ckColor];
-    self.mdView.backgroundColor = [UIColor whiteColor];
+    self.mdView.fgColor = [UIColor whiteColor];
+    self.mdView.backgroundColor = [UIColor ckColor];
     self.mdView.text = attrStr;
     self.mdView.translatesAutoresizingMaskIntoConstraints = NO;
     
     [self.container addSubview:self.mdView];
-    self.container.backgroundColor = [UIColor whiteColor];
+    self.container.backgroundColor = [UIColor ckColor];
+    
+    //NSLog(@"%@", [[UIColor ckColor] hexString]);
     
     CGFloat padding = 10;
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
@@ -45,7 +47,7 @@
     UIView *mdView = self.mdView;
     
     //the logos bits
-    UIImage *logoImage = [UIImage imageNamed:@"BC-Logo"];
+    UIImage *logoImage = [UIImage imageNamed:@"INCF-Logo"];
     UIImageView *logo = [[UIImageView alloc] initWithImage:logoImage];
     logo.translatesAutoresizingMaskIntoConstraints = NO;
     [self.container addSubview:logo];
@@ -59,7 +61,7 @@
     UILabel *broughtBy = [[UILabel alloc] init];
     broughtBy.text = @"This App is brought to you by the German Neuroinformatics Node";
     broughtBy.font = [UIFont systemFontOfSize:9.0];
-    broughtBy.textColor = [UIColor ckColor];
+    broughtBy.textColor = [UIColor whiteColor];
     [self.container addSubview:broughtBy];
     broughtBy.translatesAutoresizingMaskIntoConstraints = NO;
     

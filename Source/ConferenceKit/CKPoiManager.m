@@ -42,8 +42,13 @@
     NSString *fileContents = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     
     NSData *data = [fileContents dataUsingEncoding:NSUTF8StringEncoding];
-    NSArray *root = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+    NSError *err = nil;
     
+    NSArray *root = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];
+    
+    if (err) {
+        NSLog(@"error parsing map JSON: %@", err);
+    }
     
     NSMutableArray *annotations = [[NSMutableArray alloc] init];
     NSInteger poiId = 0;
