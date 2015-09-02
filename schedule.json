@@ -1,715 +1,492 @@
 [
   {
-    "title": "Opening Statement",
-    "subtitle": "",
-    "start": "08:30",
-    "end": "08:40",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [
-      "Katrin Amunts"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "Welcome",
-    "subtitle": "",
-    "start": "08:40",
-    "end": "09:00",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [
-      "Linda Lanyon"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "Keynote: The molecular mechanisms of brain development and disorders",
-    "subtitle": "",
-    "start": "09:00",
-    "end": "09:50",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [
-      "Teiichi Furuichi"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "coffee break",
-    "subtitle": "",
-    "start": "09:50",
-    "end": "10:20",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Workshop 1",
-    "subtitle": "Small scale brain initiatives",
-    "chair": "Romain Brette",
-    "events": [
-      {
-        "title": "FlyDriver: A connectomics tool for manipulating neural circuits in the Drosophila brain at single cell resolution",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-20",
-        "authors": [
-          "Ann-Shyn Chiang"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Making the connectome work: Lessons from simple systems",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-20",
-        "authors": [
-          "Vladimir Brezina"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Comparative neural circuitry in sea slugs; a multiplicity of mechanisms to produce species-specific behaviors",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-20",
-        "authors": [
-          "Paul S. Katz"
-        ],
-        "type": "talk",
-        "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "lunch",
-    "subtitle": "",
-    "start": "12:10",
-    "end": "13:00",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Workshop 2",
-    "subtitle": "Large scale brain initiatives",
-    "chair": "Sean Hill",
-    "events": [
-      {
-        "title": "The NIH Brain Iniative: computing from action potentials to behavior",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-20",
-        "authors": [
-          "Walter Koroshetz"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "What can modern informatics bring to an understanding of diseases of the brain?",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-20",
-        "authors": [
-          "Rickard Frackowiak"
-        ],
-        "type": "talk",
-        "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "coffee break",
-    "subtitle": "",
-    "start": "15:30",
-    "end": "16:00",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Keynote: Dopamine and learning mechanisms in the basal ganglia ",
-    "subtitle": "",
-    "start": "16:00",
-    "end": "16:50",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [
-      "John Reynolds"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": " Poster session and drink reception ",
-    "subtitle": "(complimentary, refreshments served 17-18)",
-    "start": "17:00",
-    "end": "19:00",
-    "location": "",
-    "date": "2015-08-20",
-    "authors": [],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "Keynote: Supercomputing and Big Data Analytics in the Neurosciences",
-    "subtitle": "",
-    "start": "09:00",
-    "end": "09:50",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [
-      "Thomas Lippert"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "coffee break",
-    "subtitle": "",
-    "start": "09:50",
-    "end": "10:20",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Workshop 3",
-    "subtitle": "Neuromorphic computing and challenges",
-    "chair": "Jeanette Hellgren-Kotaleski",
-    "events": [
-      {
-        "title": "Building a full-size artificial cerebellum on a computer",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Tadashi Yamazaki"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Learning and Plasticity in Neuromorphic Systems",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Giacomo Indiveri"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Brian for neuromorphic computing",
-        "subtitle": "",
-        "start": "",
-        "end": "",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Romain Brette"
-        ],
-        "type": "talk",
-        "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "lunch",
-    "subtitle": "",
-    "start": "12:10",
-    "end": "13:00",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Poster session and Demos",
-    "subtitle": "",
-    "start": "13:00",
-    "end": "15:30",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "coffee break",
-    "subtitle": "",
-    "start": "15:30",
-    "end": "16:00",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Keynote: Monash Vision Group’s Cortical Bionic Eye System: a wireless cortical stimulator ",
-    "subtitle": "",
-    "start": "16:00",
-    "end": "16:50",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [
-      "Arthur Lowery"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "Investigator presentations",
+    "title": "OPENING SESSION",
     "subtitle": "",
     "chair": "",
     "events": [
       {
-        "title": "Standardizing metadata in brain imaging",
+        "title": "Welcome by Bernhard Eitel, President of Heidelberg University",
         "subtitle": "",
-        "start": "16:50",
-        "end": "17:00",
-        "location": "",
-        "date": "2015-08-21",
+        "start": "09:00",
+        "end": "",
+        "date": "2015-09-15",
         "authors": [
-          "David Keator"
+          "Bernhard Eitel"
         ],
         "type": "talk",
         "abstract": ""
       },
       {
-        "title": "Brain Imaging Data Structure-a new standard for describing and organizing human neuroimaging data",
-        "subtitle": "",
-        "start": "17:00",
-        "end": "17:10",
-        "location": "",
-        "date": "2015-08-21",
+        "title": "Welcome by Andreas Herz",
+        "subtitle": "Speaker of the Bernstein Network Computational Neuroscience",
+        "start": "09:00",
+        "end": "",
+        "date": "2015-09-15",
         "authors": [
-          "Chris Gorgolewski"
+          "Andreas Herz"
         ],
         "type": "talk",
         "abstract": ""
       },
       {
-        "title": "The National Consortium on Alcohol and Neurodevelopment  in Adolescence (NCANDA): A framework supporting neuroimaging data  integration and analysis",
+        "title": "Presentation of the Valentino Braitenberg Award by Ad Aertsen",
         "subtitle": "",
-        "start": "17:10",
-        "end": "17:20",
-        "location": "",
-        "date": "2015-08-21",
+        "start": "09:20",
+        "end": "",
+        "date": "2015-09-15",
         "authors": [
-          "B. Nolan Nichols"
+          "Ad Aertsen"
         ],
         "type": "talk",
         "abstract": ""
       },
       {
-        "title": "Neural PhosphoSignaling Database: A neuroinformatics platform for protein phosphorylation with quality control",
+        "title": "Lecture by Valentino Braitenberg Award Winner Alexander Borst",
         "subtitle": "",
-        "start": "17:20",
-        "end": "17:30",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Junichiro Yoshimoto"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Genetic sculpture of fine grained human cortical regionalization",
-        "subtitle": "",
-        "start": "17:30",
-        "end": "17:40",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Tianzi Jiang"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "The preprocessed connectomes project quality assessment protocol-a resource for measuring the quality of MRI data",
-        "subtitle": "",
-        "start": "17:40",
-        "end": "17:50",
-        "location": "",
-        "date": "2015-08-21",
-        "authors": [
-          "Cameron Craddock"
-        ],
-        "type": "talk",
-        "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "Banquet at the Salt House",
-    "subtitle": "",
-    "start": "18:00",
-    "end": "",
-    "location": "",
-    "date": "2015-08-21",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-{
-    "title": " Introduction ",
-    "subtitle": "",
-    "start": "08:30",
-    "end": "08:45",
-    "location": "",
-    "date": "2015-08-22",
-    "authors": [
-      " Gary Egan"
-    ],
-    "type": "talk",
-    "abstract": ""
-  },
-  {
-    "title": "Session 1: Neuroscience drivers for next generation neuroinformatics. ",
-    "subtitle": "",
-    "chair": "Gary Egan Sponsored by the ARC Centre of Excellence for Integrative Brain Function.",
-    "events": [
-      {
-        "title": "Predictive coding circuits in the brain",
-        "subtitle": "",
-        "start": "08:45",
-        "end": "09:15",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Michael Ibbotson"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "How do populations of neurons incorporate recent stimulus statistics? ",
-        "subtitle": "",
-        "start": "09:15",
-        "end": "09:35",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Nicholas Price"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Investigating human attention and prediction ",
-        "subtitle": "",
-        "start": "09:35",
-        "end": "09:55",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Marta Garrido"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Physiology-Based Quantitative Modeling and Analysis of Brain Dynamics Underlying Attention and Prediction",
-        "subtitle": "",
-        "start": "09:55",
+        "start": "09:20",
         "end": "10:15",
         "location": "",
-        "date": "2015-08-22",
+        "date": "2015-09-15",
         "authors": [
-          "Peter Robinson"
+          "Alexander Borst"
         ],
         "type": "talk",
         "abstract": ""
       },
       {
-        "title": "Discussion",
+        "title": "Coffee break",
         "subtitle": "",
         "start": "10:15",
-        "end": "10:30",
-        "location": "",
-        "date": "2015-08-22",
+        "end": "10:45",
+        "date": "2015-09-15",
         "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "Welcome and Presentation of Bernstein Award 2015 by Matthias Kölbel (Federal Ministry of Education and Research)",
+        "subtitle": "",
+        "start": "10:45",
+        "end": "11:00",
+        "date": "2015-09-15",
+        "authors": [
+          "Matthias Kölbel"
+        ],
         "type": "talk",
         "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "coffe break",
-    "subtitle": "",
-    "start": "10:30",
-    "end": "11:00",
-    "location": "",
-    "date": "2015-08-22",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Session 2: Imaging informatics",
-    "subtitle": "",
-    "chair": "Graham Galloway\nSponsored by the Australian National Imaging Facility.",
-    "events": [
+      },
       {
-        "title": "INCF Neuroimaging Data Sharing Model ",
+        "title": "Lecture by Bernstein Award Winner",
         "subtitle": "",
         "start": "11:00",
-        "end": "11:30",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Jean Baptiste Poline"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Automated neuroimaging biomarkers computed on the cloud",
-        "subtitle": "",
-        "start": "11:30",
-        "end": "11:50",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Olivier Salvado"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Integrating data-driven and model-based analysis tools for functional MRI",
-        "subtitle": "",
-        "start": "11:50",
-        "end": "12:10",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "David Abbott"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": " Workflows for large cohort neuroimaging datasets - ",
-        "subtitle": "",
-        "start": "12:10",
-        "end": "12:30",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Parnesh Raniga"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Discussion",
-        "subtitle": "",
-        "start": "12:30",
-        "end": "12:45",
-        "location": "",
-        "date": "2015-08-22",
+        "end": "12:00",
+        "date": "2015-09-15",
         "authors": [],
         "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Lunch Break",
+        "subtitle": "",
+        "start": "12:00",
+        "end": "",
+        "location": "",
+        "date": "2015-09-15",
+        "authors": [],
+        "type": "food",
         "abstract": ""
       }
     ]
   },
   {
-    "title": "lunch",
+    "title": "COMPUTATIONAL  NEUROSCIENCE  OF  PSYCHIATRIC  AND NEUROLOGICAL CONDITIONS",
     "subtitle": "",
-    "start": "12:45",
-    "end": "13:45",
-    "location": "",
-    "date": "2015-08-22",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": "Session 3: Simulation and visualization environments.",
-    "subtitle": "",
-    "chair": "Paul Bonnington\nSponsored by the MASSIVE Computational Facility.",
+    "chair": "Andreas Meyer-Lindenberg",
     "events": [
       {
-        "title": "Supercomputing and big data analytics in the neurosciences.",
+        "title": "The neural architecture of decision making and its regulation by dopamine",
         "subtitle": "",
-        "start": "13:45",
-        "end": "14:15",
-        "location": "",
-        "date": "2015-08-22",
+        "start": "14:00",
+        "end": "14:45",
+        "date": "2015-09-15",
         "authors": [
-          "Thomas Lippert"
+          "Ray Dolan "
+        ],
+        "type": "talk",
+        "abstract": "/429a93b3-933b-4e20-b670-eb38a992a262"
+      },
+      {
+        "title": "Modelling whole-brain psychophysiological interactions: further insights into task-independent functional magnetic resonance imaging data in psychiatry",
+        "subtitle": "",
+        "start": "14:45",
+        "end": "15:00",
+        "date": "2015-09-15",
+        "authors": [
+          "Martin F. Gerchen "
         ],
         "type": "talk",
         "abstract": ""
       },
       {
-        "title": "MASSIVE CVL: a specialized imaging and neuroinformatics facility.",
+        "title": "Connectomics: graph theoretical analysis of brain networks",
         "subtitle": "",
-        "start": "14:15",
-        "end": "14:35",
-        "location": "",
-        "date": "2015-08-22",
+        "start": "15:00",
+        "end": "15:45",
+        "date": "2015-09-15",
         "authors": [
-          "Wojtek Goscinski"
+          "Edward T. Bullmore "
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "/2cb10870-71d4-4372-91fe-1dc29020e692"
       },
       {
-        "title": "Visualisation architectures.",
+        "title": "Coffee break",
         "subtitle": "",
-        "start": "14:35",
-        "end": "14:55",
+        "start": "15:45",
+        "end": "16:15",
         "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Stefan Eilemann"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "  Immersive visualisation environments for investigating the brain - ",
-        "subtitle": "",
-        "start": "14:55",
-        "end": "15:15",
-        "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Paul Bonnington"
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Discussion",
-        "subtitle": "",
-        "start": "12:30",
-        "end": "12:45",
-        "location": "",
-        "date": "2015-08-22",
+        "date": "2015-09-15",
         "authors": [],
-        "type": "talk",
+        "type": "food",
         "abstract": ""
-      }
-    ]
-  },
-  {
-    "title": "coffe break",
-    "subtitle": "",
-    "start": "15:30",
-    "end": "16:00",
-    "location": "",
-    "date": "2015-08-22",
-    "authors": [],
-    "type": "food",
-    "abstract": ""
-  },
-  {
-    "title": " Session 4: Atlases, tools, and applications.",
-    "subtitle": "",
-    "chair": "George Paxinos\n Sponsored by the Allen Brain Institute.",
-    "events": [
+      },
       {
-        "title": "A next generation common coordinate framework of the adult mouse brain for data integration and discovery.",
+        "title": "Evaluating stroke recovery by structural decomposition of motor kinematics",
         "subtitle": "",
-        "start": "16:00",
+        "start": "16:15",
         "end": "16:30",
-        "location": "",
-        "date": "2015-08-22",
+        "date": "2015-09-15",
         "authors": [
-          "Lydia Ng"
+          "Borislav Antic"
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "/a6ceaf84-f4d0-4d39-9c92-ee32a25a1b9f"
       },
       {
-        "title": "Tissuestack: an open source HTML5 web based imaging viewer.",
+        "title": "Translational neuromodeling",
         "subtitle": "",
         "start": "16:30",
-        "end": "16:50",
-        "location": "",
-        "date": "2015-08-22",
+        "end": "17:15",
+        "date": "2015-09-15",
         "authors": [
-          "Andrew Janke"
+          "Klaas Enno Stephan "
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "/715cfeb1-05f7-4ed6-83e1-d8d545cd2a7d"
       },
       {
-        "title": "Scalable atlases for non-human primate brain research.",
+        "title": "Poster Session I",
         "subtitle": "",
-        "start": "16:50",
-        "end": "17:10",
+        "start": "17:15",
+        "end": "",
         "location": "",
-        "date": "2015-08-22",
-        "authors": [
-          "Daniel Wojcik "
-        ],
-        "type": "talk",
-        "abstract": ""
-      },
-      {
-        "title": "Discussion",
-        "subtitle": "",
-        "start": "17:10",
-        "end": "12:25",
-        "location": "",
-        "date": "2015-08-22",
+        "date": "2015-09-15",
         "authors": [],
+        "type": "poster",
+        "abstract": ""
+      },
+      {
+        "title": "Public Lecture: Pain and pain modulation: from spinal to cortical processing",
+        "subtitle": "",
+        "start": "20:00",
+        "end": "",
+        "location": "Hörsaal 13",
+        "date": "2015-09-15",
+        "authors": [
+          "Christian Büchel"
+        ],
         "type": "talk",
         "abstract": ""
       }
     ]
   },
   {
-    "title": " Closing remarks",
+    "title": "NOVEL APPROACHES TO DATA ANALYSIS IN NEUROPHYSIOLOGY AND NEUROIMAGING",
     "subtitle": "",
-    "start": "17:25",
-    "end": "17:30",
-    "location": "",
-    "date": "2015-08-22",
-    "authors": [
-      " Jan Bjaalie"
-    ],
-    "type": "talk",
-    "abstract": ""
+    "chair": "Daniel Durstewitz",
+    "events": [
+      {
+        "title": "Deciphering the Dynamics of the Unconscious Brain Under General Anesthesia",
+        "subtitle": "",
+        "start": "09:00",
+        "end": "09:45",
+        "date": "2015-09-16",
+        "authors": [
+          "Emery Brown"
+        ],
+        "type": "talk",
+        "abstract": "/94f0300a-4781-465b-81a2-61008a4ec09b"
+      },
+      {
+        "title": "Correlations and signatures of criticality in neural population models",
+        "subtitle": "",
+        "start": "09:45",
+        "end": "10:00",
+        "date": "2015-09-16",
+        "authors": [
+          "Jakob Macke  "
+        ],
+        "type": "talk",
+        "abstract": "/b35694e0-3ac2-4940-a81f-b46f3f5c7331"
+      },
+      {
+        "title": "Unlocking single-trial dynamics of spike trains in parietal cortex during decision-making",
+        "subtitle": "",
+        "start": "10:00",
+        "end": "10:45",
+        "date": "2015-09-16",
+        "authors": [
+          "Jonathan Pillow "
+        ],
+        "type": "talk",
+        "abstract": "/8b61608d-2829-4b2b-937e-0dd9779f60e1"
+      },
+      {
+        "title": "Coffee break",
+        "subtitle": "",
+        "start": "10:45",
+        "end": "11:15",
+        "location": "",
+        "date": "2015-09-16",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "State and parameter estimation in neurons of the song production pathway in zebra finch songbirds",
+        "subtitle": "",
+        "start": "11:15",
+        "end": "11:30",
+        "date": "2015-09-16",
+        "authors": [
+          "Nirag Kadakia "
+        ],
+        "type": "talk",
+        "abstract": "/0791fcf1-03b2-4dca-8eb5-dc5bc7b8eea1"
+      }
+    ]
+  },
+  {
+    "title": "INFORMATION PROCESSING IN PREFRONTAL HIPPOCAMPAL NETWORKS",
+    "subtitle": "",
+    "chair": "Andreas Draguhn",
+    "events": [
+      {
+        "title": "Coding and dynamics in the hippocampal formation",
+        "subtitle": "",
+        "start": "11:30",
+        "end": "12:15",
+        "date": "2015-09-16",
+        "authors": [
+          "Ila Fiete "
+        ],
+        "type": "talk",
+        "": {
+          "title": "Lunch Break",
+          "subtitle": "",
+          "start": "12:15",
+          "end": "",
+          "location": "",
+          "date": "2015-09-16",
+          "authors": [],
+          "type": "food",
+          "abstract": ""
+        },
+        "abstract": ""
+      },
+      {
+        "title": "Neural substrates of memories and decisions",
+        "subtitle": "",
+        "start": "14:00",
+        "end": "14:45",
+        "date": "2015-09-16",
+        "authors": [
+          "Loren Frank "
+        ],
+        "type": "talk",
+        "abstract": "/5021cd91-9632-463c-ae0c-4837a80be6c1"
+      },
+      {
+        "title": "Optimal networks for integrating two input spaces",
+        "subtitle": "",
+        "start": "14:45",
+        "end": "15:00",
+        "date": "2015-09-16",
+        "authors": [
+          "Christian Leibold "
+        ],
+        "type": "talk",
+        "abstract": "/378dbec8-9ea3-4024-a290-cfac0e63f556"
+      },
+      {
+        "title": "Cortex-wide neuronal sequences, and their hippocampal dependent replay",
+        "subtitle": "",
+        "start": "15:00",
+        "end": "15:45",
+        "date": "2015-09-16",
+        "authors": [
+          "Francesco Paolo Battaglia "
+        ],
+        "type": "talk",
+        "abstract": "/2f13465c-2b7a-425c-8548-2d4924a8a3a7"
+      },
+      {
+        "title": "Coffee Break",
+        "subtitle": "",
+        "start": "15:45",
+        "end": "16:15",
+        "location": "",
+        "date": "2015-09-16",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "Automatic discovery of brain states from multivariate LFPs during appetitive behavior",
+        "subtitle": "",
+        "start": "16:15",
+        "end": "16:30",
+        "date": "2015-09-16",
+        "authors": [
+          "Alvaro Tejero-Cantero "
+        ],
+        "type": "talk",
+        "abstract": "/4c090780-1b99-4e35-b30c-4952cbe49789"
+      },
+      {
+        "title": "Keynote Lecture: Optical tools for studying intact biological systems ",
+        "subtitle": "",
+        "start": "17:30",
+        "end": "16:30",
+        "date": "2015-09-16",
+        "authors": [
+          "Karl Deisseroth"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Poster Session II",
+        "subtitle": "",
+        "start": "17:30",
+        "end": "",
+        "location": "",
+        "date": "2015-09-15",
+        "authors": [],
+        "type": "poster",
+        "abstract": ""
+      },
+      {
+        "title": "Conference Dinner",
+        "subtitle": "",
+        "start": "20:00",
+        "end": "",
+        "location": "Kulturbrauerei Heidelberg",
+        "date": "2015-09-16",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      }
+    ]
+  },
+  {
+    "title": "GENES AND NEURAL NETWORK (DYS-)FUNCTION",
+    "subtitle": "",
+    "chair": "Peter Kirsch",
+    "events": [
+      {
+        "title": "Understanding the roles of prefrontal long-range connections through targeted optogenetic perturbation",
+        "subtitle": "",
+        "start": "09:00",
+        "end": "09:45",
+        "date": "2015-09-17",
+        "authors": [
+          "Ofer Yizhar"
+        ],
+        "type": "talk",
+        "": {
+          "title": "Lunch Break",
+          "subtitle": "",
+          "start": "12:15",
+          "end": "",
+          "location": "",
+          "date": "2015-09-16",
+          "authors": [],
+          "type": "food",
+          "abstract": "/f7d8dc1d-d0c8-4a15-a55f-13dd076b78e4"
+        },
+        "abstract": ""
+      },
+      {
+        "title": "The brain-derived neurotrophic factor Val66Met polymorphism moderates reconsolidation of fear memory in humans?",
+        "subtitle": "",
+        "start": "09:45",
+        "end": "10:00",
+        "date": "2015-09-17",
+        "authors": [
+          "Manish K. Asthana "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Coffee Break",
+        "subtitle": "",
+        "start": "10:00",
+        "end": "10:30",
+        "location": "",
+        "date": "2015-09-17",
+        "authors": [],
+        "type": "food",
+        "abstract": "/2b4bcad6-4df0-4b96-b0f9-d51c6336e72e"
+      },
+      {
+        "title": "Neural network dysfunction in animal models of schizophrenia",
+        "subtitle": "",
+        "start": "10:30",
+        "end": "11:15",
+        "date": "2015-09-17",
+        "authors": [
+          "Torfi Sigurdsson "
+        ],
+        "type": "talk",
+        "abstract": "/85527760-50cd-4588-aa3e-8233b5ed137f"
+      },
+      {
+        "title": "Mapping psychiatric risk genes to biological function through protein interaction network",
+        "subtitle": "",
+        "start": "11:15",
+        "end": "11:30",
+        "date": "2015-09-17",
+        "authors": [
+          "Emmanuel Schwarz "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Possible modulation of sensory input by a novel feedback from the cerebellar nuclei to the cerebellar cortex ",
+        "subtitle": "Presentation of the Brains4Brains Award 2015 and Lecture by the Awardee",
+        "start": "11:30",
+        "end": "12:00",
+        "date": "2015-09-17",
+        "authors": [
+          "Lea Ankri "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Closing Remarks",
+        "subtitle": "",
+        "start": "12:00",
+        "end": "",
+        "date": "2015-09-17",
+        "authors": [],
+        "type": "talk",
+        "abstract": ""
+      }
+    ]
   }
 ]
+
