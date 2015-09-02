@@ -8,7 +8,7 @@
             "long": 8.706566000000066
         },
         "type": 0,
-	"zoomto": 1
+	"zoomto": true
     },
     {
         "ExtendedData": "",
@@ -19,7 +19,7 @@
             "long": 8.675967000000014
         },
         "type": 4,
-	"zoomto": 1
+	"zoomto": true
     },
     {
         "ExtendedData": "",
@@ -30,7 +30,7 @@
             "long": 8.697689999999966
         },
         "type": 1,
-	"zoomto": 1
+	"zoomto": true
     },
     {
         "ExtendedData": "",
@@ -41,6 +41,6 @@
             "long": 8.713314999999966
         },
         "type": 5,
-	"zoomto": 1
+	"zoomto": true
     }
 ]
