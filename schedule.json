@@ -51,7 +51,8 @@
           "Alexander Borst"
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "",
+        "info": "braitenberg-award"
       },
       {
         "title": "Coffee break",
@@ -73,7 +74,8 @@
           "Matthias Kölbel"
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "",
+        "info": "bernstein-award"
       },
       {
         "title": "Lecture by Bernstein Award Winner",
@@ -178,7 +180,7 @@
         "title": "Poster Session I",
         "subtitle": "",
         "start": "17:15",
-        "end": "",
+        "end": "19:00",
         "location": "",
         "date": "2015-09-15",
         "authors": [],
@@ -369,7 +371,7 @@
         "title": "Poster Session II",
         "subtitle": "",
         "start": "17:30",
-        "end": "",
+        "end": "19:00",
         "location": "",
         "date": "2015-09-15",
         "authors": [],
@@ -465,7 +467,7 @@
         "abstract": ""
       },
       {
-        "title": "Possible modulation of sensory input by a novel feedback from the cerebellar nuclei to the cerebellar cortex ",
+        "title": "Possible modulation of sensory input by a novel feedback from the cerebellar nuclei to the cerebellar cortex",
         "subtitle": "Presentation of the Brains4Brains Award 2015 and Lecture by the Awardee",
         "start": "11:30",
         "end": "12:00",
@@ -474,7 +476,8 @@
           "Lea Ankri "
         ],
         "type": "talk",
-        "abstract": ""
+        "abstract": "",
+        "info": "b4b-award"
       },
       {
         "title": "Closing Remarks",

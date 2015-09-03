@@ -15,8 +15,11 @@ Poster boards are numbered according to the abstract numbers in these proceeding
 
 INTERNET
 --------
-Netowrk name (SSID) "UNI-WEBACCESS" (No encryption!). Then login via web page (automatic redirect). 
+Netowrk name (SSID) "UNI-WEBACCESS" (No encryption!). Then login via web page (automatic redirect, for credentials see below). 
 NB: No security measures (i.e. encryption, firewalling, etc.) have been enabled. We highly recommend that you take all appropriate steps: e.g. do not share personal or system files, and use a personal firewall. Please keep in mind that there is a possibility of unencrypted communication being intercepted by others on the Hot Spot unless protocols such as SSL (HTTPS) or a VPN are used to protect information and passwords.
+
+User-ID:  rl2
+Password: bsc#2015
 
 
 OPENINGS HOURS OF THE REGISTRATION DESK
@@ -41,10 +44,11 @@ The Bernstein Conference dinner takes place in the Heidelberger Kulturbrauerei, 
 Conference coordination
 -----------------------
 
+Bernstein Center for Computational Neuroscience Heidelberg / Mannheim
+
 Central Institute for Mental Health	Ruprecht-Karls-Universität Heidelberg
 J5
 68159 Mannheim
 
-Bernstein Center for Computational Neuroscience Heidelberg / Mannheim
 Im Neuenheimer Feld 326
 69120 Heidelberg
