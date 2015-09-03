@@ -4,7 +4,7 @@ Conference Information
 VENUE
 -----
 Main Conference, Workshops and Public Lecture:
-Neue Universität, Grabengasse 3-5, Universitätsplatz
+Neue Universität, Grabengasse 3-5, Universitätsplatz, Heidelberg
 
 POSTER AND DEMOS
 ----------------
@@ -46,9 +46,10 @@ Conference coordination
 
 Bernstein Center for Computational Neuroscience Heidelberg / Mannheim
 
-Central Institute for Mental Health	Ruprecht-Karls-Universität Heidelberg
+Central Institute for Mental Health
 J5
 68159 Mannheim
 
+Ruprecht-Karls-Universität Heidelberg
 Im Neuenheimer Feld 326
 69120 Heidelberg
