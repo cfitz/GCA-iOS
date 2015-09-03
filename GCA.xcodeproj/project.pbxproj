@@ -185,7 +185,7 @@
 		E9BD1D7F1B791B1B000F197F /* CKSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKSchedule.h; path = ConferenceKit/CKSchedule.h; sourceTree = "<group>"; };
 		E9BD1D801B791B1B000F197F /* CKSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKSchedule.m; path = ConferenceKit/CKSchedule.m; sourceTree = "<group>"; };
 		E9BD1D861B7C7BD1000F197F /* schedule.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule.json; sourceTree = SOURCE_ROOT; };
-		E9D313C217BF7B3100DACDB4 /* GCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D313C217BF7B3100DACDB4 /* BC15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BC15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D313C517BF7B3100DACDB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9D313C717BF7B3100DACDB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9D313C917BF7B3100DACDB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -334,7 +334,7 @@
 		E9D313C317BF7B3100DACDB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9D313C217BF7B3100DACDB4 /* GCA.app */,
+				E9D313C217BF7B3100DACDB4 /* BC15.app */,
 				E962420019A38A4800B189D6 /* GCAManager.app */,
 			);
 			name = Products;
@@ -577,7 +577,7 @@
 			);
 			name = GCA;
 			productName = NI2013;
-			productReference = E9D313C217BF7B3100DACDB4 /* GCA.app */;
+			productReference = E9D313C217BF7B3100DACDB4 /* BC15.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -939,14 +939,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 49;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/GCA-Prefix.pch";
 				INFOPLIST_FILE = "Source/GCA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GCA;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = BC15;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
@@ -959,14 +958,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 49;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/GCA-Prefix.pch";
 				INFOPLIST_FILE = "Source/GCA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = GCA;
 				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = BC15;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
