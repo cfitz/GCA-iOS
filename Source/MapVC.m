@@ -85,7 +85,6 @@
 
     for (CKPoI *poi in self.poiManager.pois) {
         if (poi.zoomTo) {
-            NSLog(@"zooming to %@", poi.title);
             double offset = 2000;
             point = MKMapPointForCoordinate(poi.coordinate);
             MKMapRect prect = MKMapRectMake(point.x-offset, point.y-offset, 2*offset, 2*offset);
