@@ -45,6 +45,10 @@
 		E962424019A38B6500B189D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E962423C19A38B4800B189D6 /* Cocoa.framework */; };
 		E962424119A38B8700B189D6 /* Abstract.css in Resources */ = {isa = PBXBuildFile; fileRef = E9938ED6199CD56E003163D5 /* Abstract.css */; };
 		E962424419A38BC500B189D6 /* JSONImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E962424319A38BC500B189D6 /* JSONImporter.m */; };
+		E967A2551B986ADD00AD5768 /* braitenberg-award.md in Resources */ = {isa = PBXBuildFile; fileRef = E967A2531B98696B00AD5768 /* braitenberg-award.md */; };
+		E967A2591B987A6F00AD5768 /* CKMarkdownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E967A2571B987A6F00AD5768 /* CKMarkdownVC.m */; };
+		E967A25F1B9888C900AD5768 /* b4b-award.md in Resources */ = {isa = PBXBuildFile; fileRef = E967A25B1B9888B100AD5768 /* b4b-award.md */; };
+		E967A2601B9888C900AD5768 /* bernstein-award.md in Resources */ = {isa = PBXBuildFile; fileRef = E967A25C1B9888B100AD5768 /* bernstein-award.md */; };
 		E976936419A87A8700320EAD /* Abstract+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E976936319A87A8700320EAD /* Abstract+Format.m */; };
 		E976936519A87A8700320EAD /* Abstract+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = E976936319A87A8700320EAD /* Abstract+Format.m */; };
 		E9829D4717C24A490024EBC0 /* G-Node.png in Resources */ = {isa = PBXBuildFile; fileRef = E9829D4517C24A490024EBC0 /* G-Node.png */; };
@@ -164,8 +168,11 @@
 		E962423E19A38B5700B189D6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		E962424219A38BC500B189D6 /* JSONImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONImporter.h; sourceTree = "<group>"; };
 		E962424319A38BC500B189D6 /* JSONImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONImporter.m; sourceTree = "<group>"; };
+		E967A2531B98696B00AD5768 /* braitenberg-award.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "braitenberg-award.md"; sourceTree = SOURCE_ROOT; };
 		E967A2561B987A6F00AD5768 /* CKMarkdownVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKMarkdownVC.h; path = ConferenceKit/CKMarkdownVC.h; sourceTree = "<group>"; };
 		E967A2571B987A6F00AD5768 /* CKMarkdownVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKMarkdownVC.m; path = ConferenceKit/CKMarkdownVC.m; sourceTree = "<group>"; };
+		E967A25B1B9888B100AD5768 /* b4b-award.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "b4b-award.md"; sourceTree = SOURCE_ROOT; };
+		E967A25C1B9888B100AD5768 /* bernstein-award.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "bernstein-award.md"; sourceTree = SOURCE_ROOT; };
 		E976936219A87A8700320EAD /* Abstract+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Abstract+Format.h"; path = "AbstractModel/Abstract+Format.h"; sourceTree = "<group>"; };
 		E976936319A87A8700320EAD /* Abstract+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Abstract+Format.m"; path = "AbstractModel/Abstract+Format.m"; sourceTree = "<group>"; };
 		E9829D4517C24A490024EBC0 /* G-Node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "G-Node.png"; path = "Artwork/G-Node.png"; sourceTree = SOURCE_ROOT; };
@@ -440,6 +447,9 @@
 		E9D3141817BF7D1600DACDB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E967A25B1B9888B100AD5768 /* b4b-award.md */,
+				E967A25C1B9888B100AD5768 /* bernstein-award.md */,
+				E967A2531B98696B00AD5768 /* braitenberg-award.md */,
 				E91104F61B97402700E4E457 /* MathJax */,
 				E9BD1D861B7C7BD1000F197F /* schedule.json */,
 				E9938EDE199CDC15003163D5 /* Abstracts.storedata */,
@@ -623,6 +633,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E967A25F1B9888C900AD5768 /* b4b-award.md in Resources */,
+				E967A2601B9888C900AD5768 /* bernstein-award.md in Resources */,
+				E967A2551B986ADD00AD5768 /* braitenberg-award.md in Resources */,
 				E9D313D017BF7B3100DACDB4 /* InfoPlist.strings in Resources */,
 				E9D313DF17BF7B3100DACDB4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E9D313E217BF7B3100DACDB4 /* MainStoryboard_iPad.storyboard in Resources */,

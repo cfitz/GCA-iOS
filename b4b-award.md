@@ -1,0 +1,4 @@
+Brains for Brains Award 2015
+============================
+
+The Brains for Brains Award is an initiative of the Bernstein Association for Compu- tational Neuroscience. This year’s award is kindly supported by npi electronic GmbH, Tamm and NVIDIA GmbH, Munich. Since 2010, the Brains for Brains Award honors outstanding young international scientists who achieved a peer-reviewed scientific publi- cation before starting their doctoral thesis. It consists of a 500 e cash prize and a travel fellowship of up to 2,000 e covering their trip to Germany, participation in the Bernstein Conference and two individually planned visits to selected Computational Neuroscience labs in Germany. The 2015 awardee will present a poster during the poster session on Wednesday, September 16. Additionally, she will give a short talk during the award ceremony on Thursday, September 17. This year’s award will go to Lea Ankri (Hebrew University of Jerusalem, Israel).
