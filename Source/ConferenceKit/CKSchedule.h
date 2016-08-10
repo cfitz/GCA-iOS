@@ -23,7 +23,8 @@ typedef enum {
 @property (nonatomic, readonly) NSInteger minute;
 
 + (CKTimePoint *) timePointFromComponents:(NSDateComponents *)comps;
-- (instancetype) initFromComponents:(NSDateComponents *)comps;
+- (instancetype) initWithHour:(NSInteger)hour andMinute:(NSInteger)minute;
+
 
 - (BOOL)isEqualToTimePoint:(CKTimePoint *)timePoint;
 - (BOOL)isEqual:(id)object;
@@ -58,6 +59,7 @@ typedef enum {
 @property (nonatomic, readonly) CKDate *date;
 @property (nonatomic, readonly) CKTimePoint *begin;
 @property (nonatomic, readonly) CKTimePoint *end;
+@property (nonatomic, readonly) NSString *info;
 @end
 
 

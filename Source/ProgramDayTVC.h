@@ -24,5 +24,6 @@
 
 
 @protocol ProgramDayDelegate <NSObject>
-- (void) programDay:(ProgramDayTVC *)programDay didSelectEvent:(NSDictionary *)event;
+- (void) programDay:(ProgramDayTVC *)programDay didSelectTalk:(CKTalkEvent *)talk;
+- (void) programDay:(ProgramDayTVC *)programDay didSelectEvent:(CKEvent *)event;
 @end

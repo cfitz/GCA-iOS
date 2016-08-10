@@ -66,6 +66,8 @@
     if (self.curAbstract) {
         [self.tableView selectRowAtIndexPath:self.curAbstract animated:NO scrollPosition:UITableViewScrollPositionMiddle];
     }
+
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 #pragma mark - NSFetchResultsController
@@ -79,7 +81,7 @@
     request.sortDescriptors = [NSArray arrayWithObject:sortDesc];
     self.fetchResultsCtrl = [[NSFetchedResultsController alloc] initWithFetchRequest:request
                                                                 managedObjectContext:store.managedObjectContext
-                                                                  sectionNameKeyPath:@"topic" //was session
+                                                                  sectionNameKeyPath:@"session"
                                                                            cacheName:nil];
     [self.fetchResultsCtrl performFetch:nil];
 }

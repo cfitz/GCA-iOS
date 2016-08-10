@@ -1,10 +1,7 @@
-//
-//  Abstract.m
-//  GCA
-//
-//  Created by Christian Kellner on 10/08/15.
-//  Copyright (c) 2015 G-Node. All rights reserved.
-//
+//Copyright (c) 2012-2015, German Neuroinformatics Node (G-Node)
+//Copyright (c) 2012-2015, Christian Kellner <kellner@bio.lmu.de>
+//License: BSD-3 (see LICENSE)
+
 
 #import "Abstract.h"
 #import "Affiliation.h"
@@ -13,6 +10,9 @@
 #import "Correspondence.h"
 #import "Figure.h"
 #import "Reference.h"
+#import "Group.h"
+
+#import "Conference+Groups.h"
 
 
 @implementation Abstract
@@ -38,5 +38,15 @@
 @dynamic figures;
 @dynamic references;
 @dynamic conference;
+
+-(NSString *)session {
+    Group *group = [self.conference groupForSortID:self.aid];
+    
+    if (group == nil) {
+        NSLog(@"[W] no group found for abstract: %@", self.uuid);
+        return @"Unknown";
+    }
+    return [NSString stringWithFormat:@"%@", group.name];
+}
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "CKSchedule.h"
+#import "CKMarkdownParser.h"
 
 @interface CKScheduleItem()
 -(instancetype) initFromDict:(NSDictionary *)dict forSchedule:(CKSchedule *)schedule;
@@ -86,19 +87,23 @@
 @implementation CKTimePoint
 
 + (CKTimePoint *) timePointFromComponents:(NSDateComponents *)comps {
-    CKTimePoint *point = [[CKTimePoint alloc] initFromComponents:comps];
+    NSInteger hour = comps.hour;
+    NSInteger minute = comps.minute;
+
+    CKTimePoint *point = [[CKTimePoint alloc] initWithHour:hour andMinute:minute];
     return point;
 }
 
-- (instancetype) initFromComponents:(NSDateComponents *)comps {
+- (instancetype) initWithHour:(NSInteger)hour andMinute:(NSInteger)minute
+{
     self = [super init];
     if (!self) {
         return self;
     }
-    
-    _hour = comps.hour;
-    _minute = comps.minute;
-    
+
+    _hour = hour;
+    _minute = minute;
+
     return self;
 }
 
@@ -155,9 +160,11 @@
     CKEvent *ev;
     if ([typeStr isEqualToString:@"talk"]) {
         ev = [[CKTalkEvent alloc] initFromDict:dict forSchedule:schedule];
-    } else if ([typeStr isEqualToString:@"food"]) {
+    } else if ([typeStr isEqualToString:@"food"] ||
+               [typeStr isEqualToString:@"poster"]) {
         ev = [[CKEvent alloc] initFromDict:dict forSchedule:schedule];
     } else {
+        NSLog(@"Unkown even type: %@", typeStr);
         ev = nil;
     }
     
@@ -175,7 +182,7 @@
     _date = [schedule dateForString:dict[@"date"]];
     _begin = [schedule timePointForString:dict[@"start"]];
     _end = [schedule timePointForString:dict[@"end"]];
-    
+    _info = dict[@"info"];
     return self;
 }
 
@@ -194,7 +201,10 @@
     self.authors = dict[@"authors"];
     self.chair = dict[@"chair"];
     self.eventType = ET_TALK;
-    
+
+    NSString *uuid = [dict[@"abstract"] lastPathComponent];
+    self.abstract = [uuid length] > 0 ? uuid : nil;
+
     return self;
 }
 
@@ -380,11 +390,17 @@
         return nil;
     }
     
-    NSDate *date = [self.timePointFormatter dateFromString:timeString];
-    NSCalendar *currentCalendar = [NSCalendar currentCalendar];
-    NSDateComponents *comps = [currentCalendar components:(NSCalendarUnitHour |
-                                                           NSCalendarUnitMinute) fromDate:date];
-    return [CKTimePoint timePointFromComponents:comps];
+    NSArray *comps = [timeString componentsSeparatedByString:@":"];
+    if (comps.count != 2) {
+        NSLog(@"[E] Schedule: Invalid time format: %@", timeString);
+        return [[CKTimePoint alloc] init];
+    }
+
+    NSInteger h = [comps[0] integerValue];
+    NSInteger m = [comps[1] integerValue];
+
+    return [[CKTimePoint alloc] initWithHour:h andMinute:m];
+
 }
 
 @end

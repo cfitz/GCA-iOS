@@ -92,9 +92,20 @@
 {
     
     CKScheduleItem *item = self.day.events[indexPath.row];
-    
+    if ([item isKindOfClass:[CKTalkEvent class]]) {
+        CKTalkEvent *talk = (CKTalkEvent *) item;
+
+        if (talk.abstract) {
+            [self.delegate programDay:self didSelectTalk:talk];
+            return; // an TalkEvent is an Event, but we only want to call once
+        }
+    }
+
     if ([item isKindOfClass:[CKEvent class]]) {
-        //FIXME [self.delegate programDay:self didSelectEvent:event];
+        CKEvent *event = (CKEvent *) item;
+        if (event.info) {
+            [self.delegate programDay:self didSelectEvent:event];
+        }
     }
 }
 
