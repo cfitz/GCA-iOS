@@ -252,7 +252,7 @@
                         "end": "16:20",
                         "date": "2016-09-03",
                         "authors": [
-                                    "Massimiliano Garagnani"
+                                    "Max Garagnani"
                                     ],
                         "type": "talk"
                         }
@@ -426,35 +426,35 @@
                         ]
              },
              {
-             "title": "Track H - Normal development / cognition I",
+             "title": "Track H - Traumatic Brain Injury",
              "events": [
                         {
-                        "title": "Typical and atypical development of large-scale brain networks",
+                        "title": "Acquiring and analysing data in TBI: Challenges and opportunities",
                         "start": "13:30",
                         "end": "14:00",
                         "date": "2016-09-04",
                         "authors": [
-                                    "Vinod Menon"
+                                    "David Menon"
                                     ],
                         "type": "keynote"
                         },
                         {
-                        "title": "Detailed computational modeling of the developmental self-organization of neuronal structure and function",
+                        "title": "Computational challenges for the analysis of intracranial pressure and heart rate data in traumatic brain injuries patients",
                         "start": "14:00",
                         "end": "14:20",
                         "date": "2016-09-04",
                         "authors": [
-                                    "Roman Bauer"
+                                    "Pietro Lio"
                                     ],
                         "type": "talk"
                         },
                         {
-                        "title": "The functional and neural architecture of object concepts",
+                        "title": "Legal, ethical and technical challenges of international clinical data sharing: The Center-TBI experience",
                         "start": "14:20",
                         "end": "14:40",
                         "date": "2016-09-04",
                         "authors": [
-                                    "Yanchao Bi"
+                                    "Jeannette Söderberg"
                                     ],
                         "type": "keynote"
                         }
@@ -508,35 +508,35 @@
                         ]
              },
              {
-             "title": "Track H - Traumatic brain injury",
+             "title": "Track I - Normal Development / Cognition",
              "events": [
                         {
-                        "title": "Acquiring and analysing data in TBI: Challenges and opportunities",
-                        "start": "15:40",
-                        "end": "16:00",
+                        "title": "Typical and atypical development of large-scale brain networks",
+                        "start": "15:10",
+                        "end": "15:40",
                         "date": "2016-09-04",
                         "authors": [
-                                    "David Menon"
+                                    "Vinod Menon"
                                     ],
                         "type": "keynote"
                         },
                         {
-                        "title": "Computational challenges for the analysis of Intracranial Pressure and Heart Rate data in traumatic brain injuries patients",
-                        "start": "16:00",
-                        "end": "16:20",
+                        "title": "Detailed computational modeling of the developmental self- organization of neuronal structure and function",
+                        "start": "15:40",
+                        "end": "16:00",
                         "date": "2016-09-04",
                         "authors": [
-                                    "Pietro Lio"
+                                    "Roman Bauer"
                                     ],
                         "type": "talk"
                         },
                         {
-                        "title": "",
-                        "start": "15:10",
-                        "end": "15:40",
+                        "title": "The functional and neural architecture of object concepts",
+                        "start": "16:00",
+                        "end": "16:20",
                         "date": "2016-09-03",
                         "authors": [
-                                    "Jeannette Söderberg"
+                                    "Yanchao Bi"
                                     ],
                         "type": "talk"
                         }
