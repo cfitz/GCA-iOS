@@ -104,9 +104,14 @@
     
     if (!numberOfNewlines)
         return;
-    
-    [NSString stringWithFormat:@"%.*s", MAX(numberOfNewlines, 10), newLines];
-    [text appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n\n"]];
+
+
+    UIFont *font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
+    NSDictionary *attrs = [NSDictionary dictionaryWithObject:font
+                                                      forKey:NSFontAttributeName];
+
+    NSString *ts = [NSString stringWithFormat:@"%.*s", MIN(numberOfNewlines, 10), newLines];
+    [self.text appendAttributedString:[[NSAttributedString alloc] initWithString:ts attributes:attrs]];
 }
 
 @end
@@ -164,7 +169,7 @@ header (struct buf *ob, const struct buf *input, int level, void *opaque)
     
     ParserContext *context = (__bridge ParserContext *)opaque;
     [context addNewlines:1];
-    [context addTextFromBuffer:input attributes:attrs addNewlines:2];
+    [context addTextFromBuffer:input attributes:attrs addNewlines:1];
 }
 
 static void
@@ -177,8 +182,12 @@ static void
 paragraph (struct buf *ob, const struct buf *input, void *opaque)
 {
     ParserContext *context = (__bridge ParserContext *)opaque;
-    [context addTextFromBuffer:input];
-    [context addNewlines:1];
+
+    UIFont *font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
+    NSDictionary *attrs = [NSDictionary dictionaryWithObject:font
+                                                      forKey:NSFontAttributeName];
+
+    [context addTextFromBuffer:input attributes:attrs addNewlines:1];
 }
 
 static void
