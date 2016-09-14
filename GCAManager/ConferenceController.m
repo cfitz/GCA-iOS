@@ -11,6 +11,8 @@
 #import "JSONImporter.h"
 #import "Conference.h"
 
+#import "AppDelegate.h"
+
 @interface ConferenceController () <NSTableViewDataSource, NSTableViewDelegate>
 @property (weak) IBOutlet NSButton *selectConfButton;
 @property (nonatomic, strong) NSArray *conferences;
@@ -39,7 +41,8 @@
 }
 
 - (void)loadConferenceFromJson:(NSURL *)location {
-    NSManagedObjectContext *ctx = [[NSApp delegate] managedObjectContext];
+    AppDelegate *dlg = (AppDelegate *) [NSApp delegate];
+    NSManagedObjectContext *ctx = [dlg managedObjectContext];
 
     NSData *data = [[NSData alloc] initWithContentsOfURL:location];
     JSONImporter *imporer = [[JSONImporter alloc] initWithContext:ctx];
@@ -72,7 +75,8 @@
 }
 
 - (void)loadConferences {
-    NSManagedObjectContext *ctx = [[NSApp delegate] managedObjectContext];
+    AppDelegate *dlg = (AppDelegate *) [NSApp delegate];
+    NSManagedObjectContext *ctx = [dlg managedObjectContext];
     
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
 
