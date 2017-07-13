@@ -92,13 +92,6 @@
                                                                            metrics:@{@"width" : @(width), @"pad" : @(padding)}
                                                                              views:viewsMap]];
     
-//    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:mdView
-//                                                               attribute:NSLayoutAttributeCenterX
-//                                                               relatedBy:NSLayoutRelationEqual
-//                                                                  toItem:self.container
-//                                                               attribute:NSLayoutAttributeCenterX
-//                                                              multiplier:1.f constant:0.f]];
-    
     [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[logo]-(>=pad)-|"
                                                                            options:NSLayoutFormatAlignAllCenterY
                                                                            metrics:@{@"width" : @(width), @"pad" : @(padding)}
@@ -112,6 +105,7 @@
                                                                attribute:NSLayoutAttributeCenterX
                                                               multiplier:1.f constant:0.f]];
     
+    // Maintain logo aspect ratio
     [self.container addConstraint:[NSLayoutConstraint constraintWithItem:logo
                                                                attribute:NSLayoutAttributeHeight
                                                                relatedBy:NSLayoutRelationEqual
@@ -132,10 +126,34 @@
                                                                attribute:NSLayoutAttributeCenterX
                                                               multiplier:1.f constant:0.f]];
     
-    [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[broughtBy(==gnode)]-(>=pad)-|"
-                                                                           options:0
-                                                                           metrics:@{@"width" : @(width), @"pad" : @0.0f}
-                                                                             views:viewsMap]];
+    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:gnode
+                                                               attribute:NSLayoutAttributeWidth
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:self.container
+                                                               attribute:NSLayoutAttributeWidth
+                                                              multiplier:0.8f
+                                                                constant:0.f]];
+
+    // Maintain logo aspect ratio
+    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:gnode
+                                                               attribute:NSLayoutAttributeHeight
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:gnode
+                                                               attribute:NSLayoutAttributeWidth
+                                                              multiplier:gnode.frame.size.height/gnode.frame.size.width
+                                                                constant:0.f]];
+    
+//    [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[broughtBy(==gnode)]-(>=pad)-|"
+//                                                                           options:0
+//                                                                           metrics:@{@"width" : @(width), @"pad" : @0.0f}
+//                                                                             views:viewsMap]];
+    
+    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:broughtBy
+                                                               attribute:NSLayoutAttributeWidth
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:self.container
+                                                               attribute:NSLayoutAttributeWidth
+                                                              multiplier:1.f constant:0.f]];
     
     [self.container addConstraint:[NSLayoutConstraint constraintWithItem:broughtBy
                                                                attribute:NSLayoutAttributeCenterX
