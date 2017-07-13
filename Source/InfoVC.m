@@ -129,9 +129,9 @@
     [self.container addConstraint:[NSLayoutConstraint constraintWithItem:gnode
                                                                attribute:NSLayoutAttributeWidth
                                                                relatedBy:NSLayoutRelationEqual
-                                                                  toItem:self.container
+                                                                  toItem:broughtBy
                                                                attribute:NSLayoutAttributeWidth
-                                                              multiplier:0.8f
+                                                              multiplier:1.f
                                                                 constant:0.f]];
 
     // Maintain logo aspect ratio
@@ -143,17 +143,11 @@
                                                               multiplier:gnode.frame.size.height/gnode.frame.size.width
                                                                 constant:0.f]];
     
-//    [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[broughtBy(==gnode)]-(>=pad)-|"
-//                                                                           options:0
-//                                                                           metrics:@{@"width" : @(width), @"pad" : @0.0f}
-//                                                                             views:viewsMap]];
+    [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[broughtBy(==gnode)]-(>=pad)-|"
+                                                                           options:0
+                                                                           metrics:@{@"width" : @(width), @"pad" : @0.0f}
+                                                                             views:viewsMap]];
     
-    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:broughtBy
-                                                               attribute:NSLayoutAttributeWidth
-                                                               relatedBy:NSLayoutRelationEqual
-                                                                  toItem:self.container
-                                                               attribute:NSLayoutAttributeWidth
-                                                              multiplier:1.f constant:0.f]];
     
     [self.container addConstraint:[NSLayoutConstraint constraintWithItem:broughtBy
                                                                attribute:NSLayoutAttributeCenterX
