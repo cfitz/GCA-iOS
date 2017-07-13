@@ -93,12 +93,11 @@
                                                                              views:viewsMap]];
     
 //    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:mdView
-//                                 attribute:NSLayoutAttributeCenterX
-//                                 relatedBy:NSLayoutRelationEqual
-//                                    toItem:self.container
-//                                 attribute:NSLayoutAttributeCenterX
-//                                                multiplier:1.f constant:0.f]];
-    
+//                                                               attribute:NSLayoutAttributeCenterX
+//                                                               relatedBy:NSLayoutRelationEqual
+//                                                                  toItem:self.container
+//                                                               attribute:NSLayoutAttributeCenterX
+//                                                              multiplier:1.f constant:0.f]];
     
     [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[logo]-(>=pad)-|"
                                                                            options:NSLayoutFormatAlignAllCenterY
@@ -112,6 +111,14 @@
                                                                   toItem:self.container
                                                                attribute:NSLayoutAttributeCenterX
                                                               multiplier:1.f constant:0.f]];
+    
+    [self.container addConstraint:[NSLayoutConstraint constraintWithItem:logo
+                                                               attribute:NSLayoutAttributeHeight
+                                                               relatedBy:NSLayoutRelationEqual
+                                                                  toItem:logo
+                                                               attribute:NSLayoutAttributeWidth
+                                                              multiplier:logo.frame.size.height/logo.frame.size.width
+                                                                constant:0.f]];
     
     [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-(>=pad)-[gnode]-(>=pad)-|"
                                                                            options:0
