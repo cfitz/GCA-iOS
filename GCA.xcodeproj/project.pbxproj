@@ -124,6 +124,7 @@
 		E9E3A5311B7C9DAF00919B6C /* CKSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD1D801B791B1B000F197F /* CKSchedule.m */; };
 		E9F29D9E1D5B58A500D6A713 /* Conference+Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F29D9D1D5B58A500D6A713 /* Conference+Groups.m */; };
 		E9F29D9F1D5B58A500D6A713 /* Conference+Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F29D9D1D5B58A500D6A713 /* Conference+Groups.m */; };
+		ED2001881F179A350093D93C /* info.md in Sources */ = {isa = PBXBuildFile; fileRef = ED2001871F179A350093D93C /* info.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -264,6 +265,7 @@
 		E9D3148C17C0A6C200DACDB4 /* ProgramDayTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramDayTVC.xib; sourceTree = "<group>"; };
 		E9F29D9C1D5B58A500D6A713 /* Conference+Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Conference+Groups.h"; path = "AbstractModel/Conference+Groups.h"; sourceTree = "<group>"; };
 		E9F29D9D1D5B58A500D6A713 /* Conference+Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Conference+Groups.m"; path = "AbstractModel/Conference+Groups.m"; sourceTree = "<group>"; };
+		ED2001871F179A350093D93C /* info.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = info.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +451,7 @@
 			isa = PBXGroup;
 			children = (
 				E91104F61B97402700E4E457 /* MathJax */,
+				ED2001871F179A350093D93C /* info.md */,
 				E9938EDE199CDC15003163D5 /* Abstracts.storedata */,
 				E9938ED6199CD56E003163D5 /* Abstract.css */,
 			);
@@ -748,6 +751,7 @@
 				E98CAC621D88241C00E28E1A /* Conference.m in Sources */,
 				E9D3141217BF7C1B00DACDB4 /* markdown.c in Sources */,
 				E96241FB19A3816900B189D6 /* Organization+Format.m in Sources */,
+				ED2001881F179A350093D93C /* info.md in Sources */,
 				E90A3D281B7B75D3007C9401 /* Abstract.m in Sources */,
 				E96241F819A3814900B189D6 /* Author+Format.m in Sources */,
 				E9D3141317BF7C1B00DACDB4 /* stack.c in Sources */,
@@ -958,7 +962,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 116;
+				CURRENT_PROJECT_VERSION = 124;
 				DEVELOPMENT_TEAM = DV35PT4UH5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/GCA-Prefix.pch";
@@ -980,7 +984,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 116;
+				CURRENT_PROJECT_VERSION = 124;
 				DEVELOPMENT_TEAM = DV35PT4UH5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/GCA-Prefix.pch";

@@ -56,7 +56,7 @@
     UIView *mdView = self.mdView;
     
     //the logos bits
-    UIImage *logoImage = [UIImage imageNamed:@"INCF-header"];
+    UIImage *logoImage = [UIImage imageNamed:@"incf-header"];
     UIImageView *logo = [[UIImageView alloc] initWithImage:logoImage];
     logo.backgroundColor = [UIColor whiteColor];
     logo.translatesAutoresizingMaskIntoConstraints = NO;
