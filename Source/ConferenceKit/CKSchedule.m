@@ -158,12 +158,12 @@
     NSString *typeStr = dict[@"type"];
     
     CKEvent *ev;
-    if ([typeStr isEqualToString:@"talk"] ||
+    if ([typeStr isEqualToString:@"ip"] ||
         [typeStr isEqualToString:@"keynote"] ||
-        [typeStr isEqualToString:@"publicLecture"]) {
+        [typeStr isEqualToString:@"talk"]) {
         ev = [[CKTalkEvent alloc] initFromDict:dict forSchedule:schedule];
     } else if ([typeStr isEqualToString:@"food"] ||
-               [typeStr isEqualToString:@"break"] ||
+               [typeStr isEqualToString:@"discussion"] ||
                [typeStr isEqualToString:@"poster"]) {
         ev = [[CKEvent alloc] initFromDict:dict forSchedule:schedule];
     } else {

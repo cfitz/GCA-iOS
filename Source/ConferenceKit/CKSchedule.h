@@ -10,9 +10,13 @@
 
 typedef enum {
     ET_EVENT = 0,
-    ET_TRACK = 1,
-    ET_TALK = 2,
-    ET_FOOD = 3
+    ET_KEYNOTE = 1,
+    ET_IP = 2,
+    ET_TALK = 3,
+    ET_FOOD = 4,
+    ET_DISCUSSION = 5,
+    ET_POSTER = 6,
+    ET_TRACK = 7
 } kCKEventType;
 
 @class CKSchedule;
