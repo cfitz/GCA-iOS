@@ -54,4 +54,4 @@ KLIA Express is the fastest way to travel from KLIA to Kuala Lumpur, connecting 
 ## Registration Company
 Kuoni Destination Management
 
-#### Content provided by the INCF
+#### Content provided by INCF
