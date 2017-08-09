@@ -1,0 +1,438 @@
+[
+  {
+    "title": "OPENING SESSION",
+    "subtitle": "",
+    "chair": "Fred Wolf",
+    "events": [
+      {
+        "title": "Welcome by Ulf Diederichsen, Vice-President for Research, University of Goettingen",
+        "subtitle": "",
+        "start": "13:00",
+        "end": "",
+        "date": "2017-09-13",
+        "authors": [
+          "Ulf Diederichsen"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Welcome by Andreas Herz",
+        "subtitle": "Chairman of the Bernstein Network Computational Neuroscience",
+        "start": "13:05",
+        "end": "",
+        "date": "2017-09-13",
+        "authors": [
+          "Andreas Herz"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Keynote Lecture: The stabilized supralinear network, or, the importance of being loosely balanced",
+        "subtitle": "",
+        "start": "13:15",
+        "end": "14:00",
+        "location": "",
+        "date": "2017-09-13",
+        "authors": [
+          "Ken Miller"
+        ],
+        "type": "talk",
+        "abstract": ""
+      }
+    ]
+  },
+  {
+    "title": "COMPUTATIONAL NEUROSCIENCE OF LEARNING AND MEMORY",
+    "subtitle": "",
+    "chair": "Claudia Clopath",
+    "events": [
+      {
+        "title": "Attractor dynamics in networks with learning rules inferred from data",
+        "subtitle": "",
+        "start": "14:00",
+        "end": "14:45",
+        "date": "2017-09-13",
+        "authors": [
+          "Nicolas Brunel "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Control of variability in motor learning",
+        "subtitle": "",
+        "start": "14:45",
+        "end": "15:30",
+        "date": "2017-09-13",
+        "authors": [
+          "Adrienne Fairhall "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Coffee break",
+        "subtitle": "",
+        "start": "15:30",
+        "end": "16:00",
+        "date": "2017-09-13",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "Effects of short-term plasticity on the memory lifetime of recurrent neural circuits",
+        "subtitle": "",
+        "start": "16:00",
+        "end": "16:15",
+        "date": "2017-09-13",
+        "authors": [
+          "Sofia Jativa "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Sequential neuromodulation of Hebbian plasticity offers a mechanism for effective reward-based navigation",
+        "subtitle": "",
+        "start": "16:15",
+        "end": "16:30",
+        "date": "2017-09-13",
+        "authors": [
+          "Sara Zanonne "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Spiking neurons can discover predictive features by aggregate-label learning",
+        "subtitle": "",
+        "start": "16:30",
+        "end": "17:15",
+        "date": "2017-09-13",
+        "authors": [
+          "Robert Guetig "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Poster Session I",
+        "subtitle": "",
+        "start": "17:15",
+        "end": "19:45",
+        "location": "",
+        "date": "2017-09-13",
+        "authors": [],
+        "type": "poster",
+        "abstract": ""
+      },
+      {
+        "title": "The Funder’s Hour",
+        "subtitle": "HFSP: Funding International Research Collaborations in the Life Sciences",
+        "start": "17:30",
+        "end": "18:30",
+        "location": "Hörsaal 105",
+        "date": "2017-09-13",
+        "authors": [
+          "Barbara Pauly and Jérémie Barral "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Public Lecture (in German): Gehirn-Maschine-Verbindungen: Wem nutzen sie?",
+        "subtitle": "Hosted by Marion Silies & Fred Wolf",
+        "start": "20:00",
+        "end": "",
+        "location": "Alte Mensa, Wilhelmsplatz 3",
+        "date": "2017-09-13",
+        "authors": [
+          "Niels Birbaumer"
+        ],
+        "type": "talk",
+        "abstract": ""
+      }
+    ]
+  },
+  {
+    "title": "SENSORY NEUROSCIENCE",
+    "subtitle": "",
+    "chair": "Laura Busse",
+    "events": [
+      {
+        "title": "Understanding retinal response through the lens of prediction",
+        "subtitle": "",
+        "start": "09:00",
+        "end": "09:45",
+        "date": "2017-09-14",
+        "authors": [
+          "Stephanie Palmer "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Principles of local and long-range organisation of cortical circuits",
+        "subtitle": "",
+        "start": "09:45",
+        "end": "10:30",
+        "date": "2017-09-14",
+        "authors": [
+          "Tom Mrsic-Flogel "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Coffee break",
+        "subtitle": "",
+        "start": "10:30",
+        "end": "11:00",
+        "location": "",
+        "date": "2017-09-14",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "The foveal visual representation of the primate superior colliculus",
+        "subtitle": "",
+        "start": "11:00",
+        "end": "10:15",
+        "date": "2017-09-14",
+        "authors": [
+          "Ziad M. Hafed "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "High cellular and columnar variability underlies the absence of early orientation selectivity",
+        "subtitle": "",
+        "start": "11:15",
+        "end": "11:30",
+        "date": "2017-09-14",
+        "authors": [
+          "David E Whitney "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Neural circuits for visual processing in thalamus",
+        "subtitle": "",
+        "start": "11:30",
+        "end": "12:15",
+        "date": "2017-09-14",
+        "authors": [
+          "Judith Hirsch "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Poster Session II",
+        "subtitle": "",
+        "start": "12:15",
+        "end": "15:30",
+        "location": "",
+        "date": "2017-09-14",
+        "authors": [],
+        "type": "poster",
+        "abstract": ""
+      }
+    ]
+  },
+  {
+    "title": "CIRCUIT NEUROSCIENCE & CONNECTOMICS",
+    "subtitle": "",
+    "chair": "Viola Priesemann, Claus C. Hilgetag",
+    "events": [
+      {
+        "title": "Cerebral cortex connectomics",
+        "subtitle": "",
+        "start": "15:30",
+        "end": "16:15",
+        "date": "2017-09-14",
+        "authors": [
+          "Moritz Helmstaedter"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "From connectivity to rate dynamics - successes and failures of the mean-field approach",
+        "subtitle": "",
+        "start": "16:15",
+        "end": "17:00",
+        "date": "2017-09-14",
+        "authors": [
+          "Merav Stern"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Coffee break",
+        "subtitle": "",
+        "start": "17:00",
+        "end": "17:30",
+        "date": "2017-09-14",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "Economic and topological trade-offs in the human connectome",
+        "subtitle": "",
+        "start": "17:30",
+        "end": "17:45",
+        "date": "2017-09-14",
+        "authors": [
+          "Leonardo L. Gollo"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Visual exploration and generation of connectivity in neural networks: bridging the gap between empirical data and theoretical model definition",
+        "subtitle": "",
+        "start": "17:45",
+        "end": "18:00",
+        "date": "2017-09-14",
+        "authors": [
+          "Wouter Klijn "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "The dynamic architecture of the adult visual cortex: how to keep my brain young?",
+        "subtitle": "",
+        "start": "18:00",
+        "end": "18:45",
+        "date": "2017-09-14",
+        "authors": [
+          "Siegrid Loewel "
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Conference Dinner",
+        "subtitle": "",
+        "start": "19:00",
+        "end": "",
+        "location": "Alte Mensa, Wilhelmsplatz 3",
+        "date": "2017-09-14",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      }
+    ]
+  },
+  {
+    "title": "PRIMATE COGNITION / COMPUTATIONAL PSYCHOLOGY",
+    "subtitle": "",
+    "chair": "Julia Fischer, Alexander Gail",
+    "events": [
+      {
+        "title": "The anterior cingulate cortex in learning and changing behaviour",
+        "subtitle": "",
+        "start": "09:00",
+        "end": "09:45",
+        "date": "2017-09-15",
+        "authors": [
+          "Matthew Rushworth"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "The magical number zero",
+        "subtitle": "",
+        "start": "09:45",
+        "end": "10:30",
+        "date": "2017-09-15",
+        "authors": [
+          "Andreas Nieder"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Coffee Break",
+        "subtitle": "",
+        "start": "10:30",
+        "end": "11:00",
+        "location": "",
+        "date": "2017-09-15",
+        "authors": [],
+        "type": "food",
+        "abstract": ""
+      },
+      {
+        "title": "Bayesian mapping reveals that attention boosts neural responses to predicted and unpredicted stimuli ",
+        "subtitle": "Presentation of the Brains4Brains Award 2017 and Lecture by the Awardee",
+        "start": "11:00",
+        "end": "11:30",
+        "date": "2017-09-14",
+        "authors": [
+          "Elise Genevieve Rowe"
+        ],
+        "type": "talk",
+        "abstract": "",
+        "info": "b4b-award"
+      },
+      {
+        "title": "A state space model for change point detection in multivariate spike count data",
+        "subtitle": "",
+        "start": "11:30",
+        "end": "11:45",
+        "date": "2017-09-15",
+        "authors": [
+          "Hazem Toutounji"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Single trail population activity of the fronto-parietal grasping network evolves through three independent subspaces",
+        "subtitle": "",
+        "start": "11:45",
+        "end": "12:00",
+        "date": "2017-09-15",
+        "authors": [
+          "Benjamin Dann"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Single trail population activity of the fronto-parietal grasping network evolves through three independent subspaces",
+        "subtitle": "",
+        "start": "12:00",
+        "end": "12:45",
+        "date": "2017-09-15",
+        "authors": [
+          "Anne Churchland"
+        ],
+        "type": "talk",
+        "abstract": ""
+      },
+      {
+        "title": "Closing Remarks",
+        "subtitle": "",
+        "start": "12:45",
+        "end": "",
+        "date": "2017-09-15",
+        "authors": [],
+        "type": "talk",
+        "abstract": ""
+      }
+    ]
+  }
+]

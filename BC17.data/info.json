@@ -1,0 +1,77 @@
+{
+    "abstracts": "https://abstracts.g-node.org/api/conferences/9745ed14-6e46-45da-b81c-c4015b1b700f/abstracts",
+    "allAbstracts": "https://abstracts.g-node.org/api/conferences/9745ed14-6e46-45da-b81c-c4015b1b700f/allAbstracts",
+    "cite": null,
+    "deadline": "2017-07-31T21:59:00.000Z",
+    "description": "The Bernstein Conference is the Bernstein Network's central forum that has developed over time into the largest annual Computational Neuroscience conference in Europe, attracting an international audience from across the world.",
+    "end": "2017-09-15T16:00:00.000Z",
+    "geo": "https://abstracts.g-node.org/api/conferences/9745ed14-6e46-45da-b81c-c4015b1b700f/geo",
+    "group": "BCCN",
+    "groups": [
+        {
+            "name": "Invited Talks",
+            "prefix": 0,
+            "short": "I",
+            "uuid": "ef8c7ad4-ef8f-4c96-837c-80ed3e8fd812"
+        },
+        {
+            "name": "Contributed Talks",
+            "prefix": 1,
+            "short": "C",
+            "uuid": "1052a939-ef9a-4a8c-83b5-bcb9b643a401"
+        },
+        {
+            "name": "Posters Wednesday",
+            "prefix": 2,
+            "short": "W",
+            "uuid": "2d243936-74b7-48b1-8eb1-39e402d8ecf1"
+        },
+        {
+            "name": "Posters Thursday",
+            "prefix": 3,
+            "short": "T",
+            "uuid": "9ff4e014-45b0-4a29-8669-4d55e24124e7"
+        },
+        {
+            "name": "Poster",
+            "prefix": 11,
+            "short": "P",
+            "uuid": "edb0f5d5-e34a-4aee-82d7-7b12ae415ebf"
+        },
+        {
+            "name": "Talk or Poster",
+            "prefix": 12,
+            "short": "O",
+            "uuid": "6dcb6c50-c13b-4d47-8e7e-c7ccfe1cc7f5"
+        }
+    ],
+    "hasPresentationPrefs": true,
+    "iOSApp": null,
+    "info": "https://abstracts.g-node.org/api/conferences/9745ed14-6e46-45da-b81c-c4015b1b700f/info",
+    "isActive": true,
+    "isOpen": false,
+    "isPublished": false,
+    "link": "http://bernstein-conference.de",
+    "logo": "https://portal.g-node.org/abstracts/bc17/BC17_header.jpg",
+    "mAbsLeng": 2500,
+    "mFigs": 1,
+    "name": "Bernstein Conference 2017",
+    "schedule": "https://abstracts.g-node.org/api/conferences/9745ed14-6e46-45da-b81c-c4015b1b700f/schedule",
+    "short": "BC17",
+    "start": "2017-09-13T07:00:00.000Z",
+    "thumbnail": "https://portal.g-node.org/abstracts/bc17/BC17_icon.png",
+    "topics": [
+        "Data analysis, machine learning, neuroinformatics",
+        "Learning, plasticity and memory",
+        "Computational connectomics",
+        "Motor control, movement, navigation",
+        "Attention, reward, decision making",
+        "Behaviour and cognition",
+        "Brain disease, network dysfunction and intervention",
+        "Neurons, networks, dynamical systems",
+        "Neurotechnology and brain-machine-interfaces",
+        "Sensory processing and perception",
+        "Other"
+    ],
+    "uuid": "9745ed14-6e46-45da-b81c-c4015b1b700f"
+}
