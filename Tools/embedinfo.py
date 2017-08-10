@@ -3,9 +3,6 @@ import os
 import json
 
 
-# TODO: Include 'geo' maps
-
-
 if len(sys.argv) < 4:
     print("Embeds info and schedule into the conference info.json")
     print("\n\tUsage: embedinfo.py info.json info.md schedule.json maps.json")
