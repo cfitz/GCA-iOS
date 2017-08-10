@@ -39,7 +39,7 @@
     NSLog(@"Loaded info VC");
     
     self.mdView = [[CKMarkdownView alloc] init];
-    self.mdView.fgColor = [UIColor incfBlack];
+    self.mdView.fgColor = [UIColor ckColor];
     self.mdView.backgroundColor = [UIColor whiteColor];
     self.mdView.text = self.info;
     self.mdView.translatesAutoresizingMaskIntoConstraints = NO;
@@ -56,9 +56,9 @@
     UIView *mdView = self.mdView;
     
     //the logos bits
-    UIImage *logoImage = [UIImage imageNamed:@"INCF-Logo"];
+    UIImage *logoImage = [UIImage imageNamed:@"BC-Logo"];
     UIImageView *logo = [[UIImageView alloc] initWithImage:logoImage];
-    logo.backgroundColor = [UIColor incfBlack];
+    logo.backgroundColor = [UIColor whiteColor];
     logo.translatesAutoresizingMaskIntoConstraints = NO;
     [self.container addSubview:logo];
  
@@ -71,7 +71,7 @@
     UILabel *broughtBy = [[UILabel alloc] init];
     broughtBy.text = @"This App is brought to you by the German Neuroinformatics Node";
     broughtBy.font = [UIFont systemFontOfSize:9.0];
-    broughtBy.textColor = [UIColor incfBlack];
+    broughtBy.textColor = [UIColor ckColor];
     [self.container addSubview:broughtBy];
     broughtBy.translatesAutoresizingMaskIntoConstraints = NO;
 
