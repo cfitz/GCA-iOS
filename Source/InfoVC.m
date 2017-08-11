@@ -151,7 +151,6 @@
 
     CGSize size = CGSizeMake(width, CGFLOAT_MAX);
     CGSize height = [self.mdView sizeThatFits:size];
-    NSLog(@"height is %f", height.height);
     [self.container addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[logo]-[mdView(==height)]-(20)-[broughtBy]-(10)-[gnode]-(10)-[version]|"
                                                                            options:0
                                                                            metrics:@{@"height" : @(height.height)}

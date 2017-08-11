@@ -237,7 +237,13 @@
     
     self.events = [events copy];
     self.eventType = ET_TRACK;
-    self.chair = dict[@"chair"];
+    NSString *prefix;
+    if ([dict[@"chair"] rangeOfString:@","].location == NSNotFound) {
+        prefix = @"Chair:";
+    } else {
+        prefix = @"Chairs:";
+    }
+    self.chair = [NSString stringWithFormat:@"%@ %@", prefix, dict[@"chair"]];
     return self;
 }
 
