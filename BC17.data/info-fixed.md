@@ -42,8 +42,8 @@ Venue: The Central Lecture Hall (ZHG), Platz der Goettinger Sieben 5, 37073 Goet
 20:15 PhD Social (Dinner tba)
 #### Friday, September 15
 15:15 Tatjana Tchumatchenko, Max Planck Institute for Brain Research, Frankfurt, Germany
-15:30 Jonathan Touboul, Mathematical Neuroscience Team (PI), CIRB - Collège de France
-16:00 Panel Discussion: Tatjana Tchumatchenko & Jonathan Touboul
+15:30 Marion Silies, European Neuroscience Institute, Goettingen, Germany
+16:00 Panel Discussion: Tatjana Tchumatchenko & Marion Silies
 18:00 PhD Social (Dinner tba) & Farewell
 ### How to get to
 #### Main Conference and Workshops
@@ -52,9 +52,8 @@ The Central Lecture Hall (ZHG), Platz der Goettinger Sieben 5, is located at the
 Both events will take place at Alte Mensa, Wilhelmsplatz 3. Alte Mensa is a historical building of the University of Goettingen and it is located within the city centre.
 ### Special Events
 #### Cinema Bernstein
-Tuesday, September 12, 19:00
+Tuesday, September 12, 19:00 with Benjamin Heisenberg (Artist, Author and Filmmaker)
 Venue: German Primate Center, Kellnerweg 4, Main Lecture Hall
-with Benjamin Heisenberg (Artist, Author and Filmmaker)
 
 Schläfer / Sleeper (Austrian-German Film 2005, OMU)
 Benjamin Heisenberg’s 2005 film Schläfer / Sleeper - giving some of the most accurate cinematic representations of laboratory life - shows actors Bastian Trost, Mehdi Nebbou and Loretta Pflaum in a story of rivalry and treachery set in a triangle of love, science and politics. Conceived in the aftermath of 9/11 and the ensuing security legislation, it paints an intimate picture of an unsettled society undermined by a silent epidemic of suspicion. Johannes, a new assistant at the university, is asked to provide reports on Farid, an Algerian Postdoc - who is suspected of being a sleeper. He refuses, but a seed of doubt has been planted. A fragile friendship overshadowed by competition in the lab and rivalry in their relationship with Beate, a joint friend, eventually leads to betrayal. "My approach to the story was to interweave the political level in a delicate way with the characters’ private conflicts in order to make the subtle corruption of the characters perceptible" (B. Heisenberg, 2005).
@@ -75,7 +74,7 @@ Gehirn-Maschine-Verbindungen: Wem nutzen sie?
 
 Completely locked-in patients (CLIS) cannot communicate with any motor response despite intact cognitive and emotional response systems. Four ALS (amyotrophic lateral sclerosis) patients in CLIS  learned to respond with a brain oxygenation and deoxygenation change of frontal brain areas using portable NIRS (near infrared spectroscopy) to short questions requiring a yes or no response presented auditorily within 15 seconds. CLIS duration in the four patients has lasted from 4 months to eight years and was validated with EOG measurement during all sessions. Each session contained 20 to 60 questions (half with yes and half with no answers). All experiments take place at the home of patients. Questions with known answers were used to train a support vector machine classifier (SVM). After achieving 70% correct answers open questions were asked and feedback of the classified answer was provided to the patients. EEG from 6 electrodes served to control sleep and vigilance decrement: questions were interrupted if sleep-like patterns appeared. 16 to 60 sessions over several months assured stability of communication with an average correct response rate of more than 70% to known and 90% correct answers to open questions. Among open questions quality of life questions were asked on a weekly basis to three of the patients with longer CLIS duration, all patients report good quality of life as previously reported by our group. Open questions answers are validated by stability over time, information of family and care takers, sentences with semantic errors and face validity (i.e. pain questions during periods of intense pain due to decubitus and other illness related problems). These results suggest that brain machine interfaces using metabolic brain signals may end the unbearable silence of CLIS.
 
-Supported by the Deutsche Forschungsgemeinschaft (DFG),The Eva and Horst Koehler-Stiftung, Bundesministerium fuer Bildung und Forschung (BMBF, Motor-Bic), Stiftung Volkswagenwerk (VW), Wyss Center for Bio and Neuroengineering, EU Horizon 2020: LUMINOUS
+Supported by the Deutsche Forschungsgemeinschaft (DFG),The Eva and Horst Koehler-Stiftung, Bundesministerium fuer Bildung und Forschung (BMBF, Motor-Bic), Stiftung Volkswagenwerk (VW), Wyss Center for Bio and Neuroengineering, EU Horizon 2020: LUMINOUS. The lecture is brought to you with friendly support of the Otto Bock HealthCare GmbH.
 #### Brains for Brains Award 2017
 The Brains for Brains Award is an initiative of the Bernstein Association for Computational Neuroscience. Since 2010, the Brains for Brains Award honors outstanding young international scientists who achieved a peer-reviewed scientific publication before starting their doctoral thesis. It consists of a travel fellowship of 2,000 € covering their trip to Germany, participation in the Bernstein Conference and two individually planned visits to selected Computational Neuroscience labs in Germany. The 2017 awardee will present a poster during the poster session on Thursday, September 14. This year’s award will go to Elise Genevieve Rowe (Monash University, Melbourne, Australia). She will give a short talk during the award ceremony on Friday, September 15
 
