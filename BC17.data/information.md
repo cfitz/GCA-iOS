@@ -74,9 +74,9 @@ Venue: The Central Lecture Hall (ZHG), Platz der Goettinger Sieben 5,
 
 15:15 Tatjana Tchumatchenko, Max Planck Institute for Brain Research, Frankfurt, Germany
 
-15:30 Jonathan Touboul, Mathematical Neuroscience Team (PI), CIRB - Collège de France
+15:30 Marion Silies, European Neuroscience Institute, Goettingen, Germany
 
-16:00 Panel Discussion: Tatjana Tchumatchenko & Jonathan Touboul
+16:00 Panel Discussion: Tatjana Tchumatchenko & Marion Silies
 
 18:00 PhD Social (Dinner tba) & Farewell
 
@@ -92,13 +92,13 @@ Both events will take place at Alte Mensa, Wilhelmsplatz 3. Alte Mensa is a hist
 
 ## Special Events
 ### Cinema Bernstein
-Tuesday, September 12, 19:00 h 
+Tuesday, September 12, 19:00 h with Benjamin Heisenberg (Artist, Author and Filmmaker) 
 Venue: German Primate Center, Kellnerweg 4, Main Lecture Hall 
-with Benjamin Heisenberg (Artist, Author and Filmmaker) 
+
 
 Schläfer / Sleeper (Austrian-German Film 2005, OMU)
 
-Benjamin Heisenberg’s 2005 film Schläfer / Sleeper - giving some of the most accurate cinematic representations of laboratory life - shows actors Bastian Trost, Mehdi Nebbou and Loretta Pflaum in a story of rivalry and treachery set in a triangle of love, science and politics. Conceived in the aftermath of 9/11 and the ensuing security legislation, it paints an intimate picture of an unsettled society undermined by a silent epidemic of suspicion. Johannes, a new assistant at the university, is asked to provide reports on Farid, an Algerian Postdoc - who is suspected of being a sleeper. He refuses, but a seed of doubt has been planted. A fragile friendship overshadowed by competition in the lab and rivalry in their relationship with Beate, a joint friend, eventually leads to betrayal. "My approach to the story was to interweave the political level in a delicate way with the characters’ private conflicts in order to make the subtle corruption of the characters perceptible" (B. Heisenberg, 2005).
+Benjamin Heisenberg’s 2005 film *Schläfer / Sleeper* - giving some of the most accurate cinematic representations of laboratory life - shows actors Bastian Trost, Mehdi Nebbou and Loretta Pflaum in a story of rivalry and treachery set in a triangle of love, science and politics. Conceived in the aftermath of 9/11 and the ensuing security legislation, it paints an intimate picture of an unsettled society undermined by a silent epidemic of suspicion. Johannes, a new assistant at the university, is asked to provide reports on Farid, an Algerian Postdoc - who is suspected of being a sleeper. He refuses, but a seed of doubt has been planted. A fragile friendship overshadowed by competition in the lab and rivalry in their relationship with Beate, a joint friend, eventually leads to betrayal. *"My approach to the story was to interweave the political level in a delicate way with the characters’ private conflicts in order to make the subtle corruption of the characters perceptible"* (B. Heisenberg, 2005).
 
 Schläfer received numerous awards, among them the Midas Prize, EuroPAWS, for the best fiction drama set in science and technology, and was screened at the Cannes Film Festival 2005. The Cinema Bernstein screening of the film, open to the general public, will feature a discussion with artist, author and filmmaker Benjamin Heisenberg. Born 1974 in Tübingen, Heisenberg grew up near Würzburg and studied sculpting (1993-1999) and filmmaking (1997-2005) in Munich. He has directed three feature films, numerous short films and is a founding editor of the filmmagazine Revolver. Most recently he co-designed the public artwork at the Munich Documentation Centre for the History of National Socialism.
 
@@ -119,7 +119,7 @@ Gehirn-Maschine-Verbindungen: Wem nutzen sie?
 
 Completely locked-in patients (CLIS) cannot communicate with any motor response despite intact cognitive and emotional response systems. Four ALS (amyotrophic lateral sclerosis) patients in CLIS  learned to respond with a brain oxygenation and deoxygenation change of frontal brain areas using portable NIRS (near infrared spectroscopy) to short questions requiring a yes or no response presented auditorily within 15 seconds. CLIS duration in the four patients has lasted from 4 months to eight years and was validated with EOG measurement during all sessions. Each session contained 20 to 60 questions (half with yes and half with no answers). All experiments take place at the home of patients. Questions with known answers were used to train a support vector machine classifier (SVM). After achieving 70% correct answers open questions were asked and feedback of the classified answer was provided to the patients. EEG from 6 electrodes served to control sleep and vigilance decrement: questions were interrupted if sleep-like patterns appeared. 16 to 60 sessions over several months assured stability of communication with an average correct response rate of more than 70% to known and 90% correct answers to open questions. Among open questions quality of life questions were asked on a weekly basis to three of the patients with longer CLIS duration, all patients report good quality of life as previously reported by our group. Open questions answers are validated by stability over time, information of family and care takers, sentences with semantic errors and face validity (i.e. pain questions during periods of intense pain due to decubitus and other illness related problems). These results suggest that brain machine interfaces using metabolic brain signals may end the unbearable silence of CLIS. 
 
-Supported by the Deutsche Forschungsgemeinschaft (DFG),The Eva and Horst Koehler-Stiftung, Bundesministerium fuer Bildung und Forschung (BMBF, Motor-Bic), Stiftung Volkswagenwerk (VW), Wyss Center for Bio and Neuroengineering, EU Horizon 2020: LUMINOUS
+Supported by the Deutsche Forschungsgemeinschaft (DFG),The Eva and Horst Koehler-Stiftung, Bundesministerium fuer Bildung und Forschung (BMBF, Motor-Bic), Stiftung Volkswagenwerk (VW), Wyss Center for Bio and Neuroengineering, EU Horizon 2020: LUMINOUS. The lecture is brought to you with friendly support of the Otto Bock HealthCare GmbH.
 
 ### Brains for Brains Award 2017
 The Brains for Brains Award is an initiative of the Bernstein Association for Computational Neuroscience. Since 2010, the Brains for Brains Award honors outstanding young international scientists who achieved a peer-reviewed scientific publication before starting their doctoral thesis. It consists of a travel fellowship of 2,000 € covering their trip to Germany, participation in the Bernstein Conference and two individually planned visits to selected Computational Neuroscience labs in Germany. The 2017 awardee will present a poster during the poster session on Thursday, September 14. This year’s award will go to Elise Genevieve Rowe (Monash University, Melbourne, Australia). She will give a short talk during the award ceremony on Friday, September 15
@@ -133,7 +133,7 @@ BCOS is the connecting link to partners in science, industry, politics and the g
 BCOS activities are aimed at facilitating scientific encounter, supporting young researchers and public outreach. The SMARTSTART Joint Training Program in Computational Neuroscience, which is coordinated by BCOS, prepares young researchers for a career in computational neuroscience. Information on all services can be gained during poster sessions. 
 
 ## German Neuroinformatics Node (G-Node)
-During the conference, the G-Node will present their new data management service GIN. GIN is a free service for managing, sharing, and publishing research data. It features versioned storage, multi-user access for collaboration, and publishing of data using persistent identifiers (DOI). The G-Node invites all conference participants to try out the new service: bring your data, discuss your data management needs, hear about upcoming features. Demos will be given during poster sessions and coffee breaks. Walk-ins are welcome any time during the conference.
+During the conference, the G-Node presents their new data management service GIN. GIN is a free service for managing, sharing, and publishing research data. It features versioned storage, multi-user access for collaboration, and publishing of data using persistent identifiers (DOI). The G-Node invites all conference participants to try out the new service: bring your data, discuss your data management needs, hear about upcoming features. Demos will be given during poster sessions and coffee breaks. Walk-ins are welcome any time during the conference.
 
 ## Bernstein Facility for Simulation and Database Technology (SimLab Neuroscience)
 High Performance Computing (HPC) can help your neuroscience projects. SimLab Neuroscience, at the Juelich Supercomputing Centre, provides advanced support in the fields of data analysis, modeling, simulation, HPC methods and visualization. It also offers tutorials, workshops, and courses to help you make the transition to HPC. 

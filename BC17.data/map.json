@@ -23,6 +23,17 @@
     },
     {
         "ExtendedData": "",
+        "name": "Alte Mensa",
+        "description": "Conference Dinner",
+        "point": {
+            "lat": 51.533442,
+            "long": 9.937631
+        },
+        "type": 5,
+        "zoomto": true
+    },
+    {
+        "ExtendedData": "",
         "name": "Göttingen Hbf",
         "description": "main station",
         "point": {
